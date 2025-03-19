@@ -1,12 +1,32 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/style.scss";
+import localFont from "next/font/local";
 
 const inter = Inter({ subsets: ["latin"] });
+const proxima = localFont({
+  src: [
+    {
+      path: "../styles/font/proxima-nova/ProximaNova-Regular.otf",
+      weight: "400",
+      style: "medium",
+    },
+    {
+      path: "../styles/font/proxima-nova/ProximaNova-Bold.otf",
+      weight: "700",
+      style: "bold",
+    },
+    {
+      path: "../styles/font/proxima-nova/ProximaNova-SemiBold.otf",
+      weight: "600",
+      style: "semibold",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
-  title: "Golden Goose Venture",
-  description: "Golden Goose Venture",
+  title: "Golden Goose Ventures",
+  description: "Golden Goose Ventures",
 };
 
 export default function RootLayout({
@@ -16,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={proxima.className}>{children}</body>
     </html>
   );
 }
