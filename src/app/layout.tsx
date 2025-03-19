@@ -7,17 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 const proxima = localFont({
   src: [
     {
-      path: "../styles/font/proxima-nova/ProximaNova-Regular.otf",
+      path: "../styles/font/proxima-nova/proximanova-regular.otf",
       weight: "400",
       style: "medium",
     },
     {
-      path: "../styles/font/proxima-nova/ProximaNova-Bold.otf",
+      path: "../styles/font/proxima-nova/proximanova-bold.otf",
       weight: "700",
       style: "bold",
     },
     {
-      path: "../styles/font/proxima-nova/ProximaNova-SemiBold.otf",
+      path: "../styles/font/proxima-nova/proximanova-semibold.otf",
       weight: "600",
       style: "semibold",
     },
