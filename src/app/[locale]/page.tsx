@@ -25,7 +25,7 @@ export default function Home() {
           <ServiceOne data={serviceData} />
           <CaseStudyOne />
           <FaqsOne />
-          <FormRequestOne />
+          {/* <FormRequestOne /> */}
           <div className="py-20">
             <CtaOne />
           </div>
