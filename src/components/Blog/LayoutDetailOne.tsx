@@ -5,8 +5,9 @@ import blogData from '@/data/blog.json'
 import * as Icon from "@phosphor-icons/react/dist/ssr";
 import { useRouter } from 'next/navigation';
 import { BlogType } from '@/type/BlogType';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
+import { useTranslation } from "@/i18n/TranslationContext";
 
 interface Props {
   data: BlogType;
@@ -14,18 +15,23 @@ interface Props {
   handlePrevBlogDetail: () => void;
 }
 
-const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePrevBlogDetail }) => {
-  const [category, setCategory] = useState<string | null>('');
-  const [tag, setTag] = useState<string | null>('');
-  const router = useRouter()
+const LayoutDetailOne: React.FC<Props> = ({
+  data,
+  handleNextBlogDetail,
+  handlePrevBlogDetail,
+}) => {
+  const [category, setCategory] = useState<string | null>("");
+  const [tag, setTag] = useState<string | null>("");
+  const router = useRouter();
+  const { locale } = useTranslation();
 
   const handleCategory = (category: string) => {
-    router.push(`/blog/blog-list-one?category=${category}`)
-  }
+    router.push(`/blog/blog-list-one?category=${category}`);
+  };
 
   const handleTag = (tag: string) => {
-    router.push(`/blog/blog-list-one?tag=${tag}`)
-  }
+    router.push(`/blog/blog-list-one?tag=${tag}`);
+  };
 
   return (
     <div className="list-blog lg:py-[100px] sm:py-16 py-10">
@@ -40,7 +46,7 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
               />
               <Icon.MagnifyingGlass className="absolute top-1/2 -translate-y-1/2 right-4 text-xl cursor-pointer" />
             </div>
-            <div className="cate-block md:mt-10 mt-6">
+            {/* <div className="cate-block md:mt-10 mt-6">
               <div className="heading7">Categories</div>
               <div className="list-nav mt-4">
                 {[
@@ -63,18 +69,17 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
             <div className="recent-post-block md:mt-10 mt-6">
               <div className="recent-post-heading heading7">Recent Posts</div>
               <div className="list-recent-post flex flex-col gap-6 mt-4">
                 {blogData.slice(4, 7).map((item) => (
                   <Link
                     key={item.id}
-                    href={"/blog/blog-detail-one/[slug]"}
-                    as={
-                      "/blog/blog-detail-one/" +
-                      item.title.toLowerCase().replace(/ /g, "-")
-                    }
+                    href={`/${locale}/blog/blog-detail-one/[slug]`}
+                    as={`/${locale}/blog/blog-detail-one/${item.title
+                      .toLowerCase()
+                      .replace(/ /g, "-")}`}
                     className="recent-post-item flex items-start gap-4 cursor-pointer"
                   >
                     <div className="item-img flex-shrink-0 w-20 h-20 rounded">
@@ -97,7 +102,7 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                 ))}
               </div>
             </div>
-            <div className="tags-popular-block md:mt-10 mt-6">
+            {/* <div className="tags-popular-block md:mt-10 mt-6">
               <div className="tag-heading heading7">Popular Tags</div>
               <div className="list-tag mt-4 flex flex-wrap gap-3">
                 {[
@@ -119,7 +124,7 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-full lg:w-2/3">
             <div className="blog-paragraph">
@@ -295,7 +300,7 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                 <div className="end mt-5 body2 text-secondary">{`Saving money is an essential skill for financial stability and long-term success. We understand the importance of efficient resource management, and we're here to guide you through proven strategies to optimize your financial savings. Our experts will provide you with practical tips and insights, such as budgeting techniques, expense tracking, smart investment options, and ways to reduce unnecessary expenses.`}</div>
               </div>
             </div>
-            <div className="blog-more-infor mt-8">
+            {/* <div className="blog-more-infor mt-8">
               <div className="infor-above flex items-center justify-between flex-wrap gap-6">
                 <div className="tags-cloud-block flex items-center gap-3 max-sm:flex-wrap">
                   <div className="body3">Tag(s):</div>
@@ -395,8 +400,8 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                 </div>
               </div>
               <div className="border border-line"></div>
-            </div>
-            <div className="blog-form-contact mt-8 md:p-10 p-7 bg-surface rounded-xl">
+            </div> */}
+            {/* <div className="blog-form-contact mt-8 md:p-10 p-7 bg-surface rounded-xl">
               <div className="heading7">Leave a Comment</div>
               <form className="form-contact-input mt-6">
                 <div className="grid sm:grid-cols-2 gap-5">
@@ -441,12 +446,12 @@ const LayoutDetailOne: React.FC<Props> = ({ data, handleNextBlogDetail, handlePr
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default LayoutDetailOne
+export default LayoutDetailOne;
