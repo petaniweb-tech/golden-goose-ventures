@@ -29,7 +29,7 @@ const TopNavTwo = () => {
               <div className="mail lg:ml-7 flex items-center">
                 <Icon.Envelope className="text-white text-xl" />
                 <span className="ml-2 caption1 text-white">
-                  hi.avitex@gmail.com
+                  hi.GGV@gmail.com
                 </span>
               </div>
             </div>

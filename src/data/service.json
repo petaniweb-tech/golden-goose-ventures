@@ -166,5 +166,89 @@
         "title": "Wallet Development",
         "desc": "Expand your knowledge and skills in cryptocurrency trading through our educational resources.",
         "shortDesc": "We develop secure and user-friendly cryptocurrency wallets that enable seamless storage and management of digital assets"
+    },
+    {
+        "icon": "icon-chart-blue",
+        "category": "venture-capital",
+        "title": "Venture Capital & Token Investments",
+        "desc": "We invest in high-potential blockchain startups and digital assets across various stages, from seed to late-stage growth.",
+        "shortDesc": "Strategic investment in the future of blockchain and crypto innovation."
+    },
+    {
+        "icon": "icon-coin-chair",
+        "category": "otc-trading",
+        "title": "OTC Trading & Liquidity Solutions",
+        "desc": "We provide over-the-counter (OTC) trading services for high-net-worth individuals, funds, and institutional clients seeking large volume transactions with minimal market impact.",
+        "shortDesc": "Institutional-grade OTC trading for digital assets with deep liquidity."
+    },
+    {
+        "icon": "icon-hand-chart",
+        "category": "market-making",
+        "title": "Market Making & Exchange Partnerships",
+        "desc": "We enhance liquidity and price stability for digital assets through strategic market making and deep exchange partnerships across Asia and globally.",
+        "shortDesc": "Professional market making services to optimize trading efficiency."
+    },
+    {
+        "icon": "icon-lamp-gear",
+        "category": "incubation",
+        "title": "Incubation & Advisory",
+        "desc": "We work closely with early-stage blockchain projects to accelerate growth, refine tokenomics, and optimize product-market fit through our experienced advisory team.",
+        "shortDesc": "End-to-end support for emerging blockchain ventures and protocols."
+    },
+    {
+        "icon": "icon-education",
+        "category": "blockchain-research",
+        "title": "Blockchain Research",
+        "desc": "Our research team provides in-depth analysis and market insights on emerging trends, technologies, and opportunities in the blockchain and cryptocurrency space.",
+        "shortDesc": "Data-driven insights to inform strategic investment decisions."
+    },
+    {
+        "icon": "icon-hand-protect",
+        "category": "risk-management",
+        "title": "Risk Management & Compliance",
+        "desc": "We employ robust risk management frameworks and compliance protocols to protect investments and ensure regulatory alignment across jurisdictions.",
+        "shortDesc": "Comprehensive risk mitigation strategies for digital asset investments."
+    },
+    {
+        "icon": "icon-code",
+        "category": "web3-development",
+        "title": "Web3 Development Support",
+        "desc": "We provide technical expertise and development resources to blockchain projects building innovative Web3 applications and infrastructure.",
+        "shortDesc": "Technical support for groundbreaking Web3 protocols and applications."
+    },
+    {
+        "icon": "icon-hand-message",
+        "category": "strategic-partnerships",
+        "title": "Strategic Partnerships",
+        "desc": "We facilitate strategic partnerships between portfolio companies, industry leaders, and key stakeholders to accelerate growth and market penetration.",
+        "shortDesc": "Building valuable connections across the blockchain ecosystem."
+    },
+    {
+        "icon": "icon-text-search",
+        "category": "due-diligence",
+        "title": "Due Diligence & Investment Analysis",
+        "desc": "Our team conducts thorough due diligence and investment analysis to identify high-potential projects with sustainable growth models and strong fundamentals.",
+        "shortDesc": "Rigorous evaluation processes to identify promising investment opportunities."
+    },
+    {
+        "icon": "icon-user-lock",
+        "category": "security-analysis",
+        "title": "Security Analysis & Audit",
+        "desc": "We provide comprehensive security assessments and audit support to ensure portfolio projects maintain robust security standards and best practices.",
+        "shortDesc": "Ensuring the highest security standards across all portfolio projects."
+    },
+    {
+        "icon": "icon-pc-code",
+        "category": "tokenomics",
+        "title": "Tokenomics Advisory",
+        "desc": "We help projects design and optimize token economic models to ensure long-term sustainability, proper incentive alignment, and value accrual.",
+        "shortDesc": "Expert guidance on token economics and distribution strategies."
+    },
+    {
+        "icon": "icon-coin-bag",
+        "category": "defi",
+        "title": "DeFi Strategy & Implementation",
+        "desc": "We support projects implementing decentralized finance solutions with strategy development, technical expertise, and market positioning.",
+        "shortDesc": "Strategic DeFi advisory for innovative financial protocols."
     }
 ]

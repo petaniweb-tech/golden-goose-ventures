@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "What kind of blockchain projects does GGV invest in?",
+        "desc": "Golden Gate Ventures invests in a diverse range of blockchain projects, focusing on infrastructure, DeFi protocols, Web3 applications, and cryptocurrency exchanges. We look for projects with strong technical teams, innovative solutions to real-world problems, clear tokenomics, and potential for sustainable growth."
+    },
+    {
+        "id": 2,
+        "title": "What is the typical investment size for GGV's venture capital arm?",
+        "desc": "Our venture capital investments typically range from $500,000 to $5 million for early-stage projects, with the potential for follow-on investments in subsequent funding rounds. For more established projects, our investment size may be larger based on specific needs and growth potential."
+    },
+    {
+        "id": 3,
+        "title": "How does GGV support portfolio companies beyond financial investment?",
+        "desc": "Beyond financial investment, we provide comprehensive support including technical advisory, tokenomics design, regulatory guidance, marketing and PR assistance, exchange listing support, and access to our extensive network of industry partners, investors, and potential customers throughout Asia and globally."
+    },
+    {
+        "id": 4,
+        "title": "What regions does GGV focus on for blockchain investments?",
+        "desc": "While we have a strong focus on Asia-Pacific markets, including Singapore, Hong Kong, South Korea, Japan, and Southeast Asia, our investment portfolio spans globally. We actively seek promising blockchain and cryptocurrency projects regardless of geographic location."
+    },
+    {
+        "id": 5,
+        "title": "How does GGV's OTC trading service work?",
+        "desc": "Our OTC (Over-The-Counter) trading service facilitates large cryptocurrency transactions outside traditional exchanges, providing better pricing, reduced slippage, and enhanced privacy. We cater to institutional clients, high-net-worth individuals, and corporate treasuries looking to execute trades of $100,000 or more."
+    },
+    {
+        "id": 6,
+        "title": "What is GGV's approach to market making services?",
+        "desc": "Our market making services focus on enhancing liquidity and price stability for digital assets across major exchanges. We employ advanced algorithmic trading strategies, deep liquidity pools, and robust risk management frameworks to maintain tight bid-ask spreads and efficient market operations for our partners."
+    },
+    {
+        "id": 7,
+        "title": "How can projects apply for investment or incubation with GGV?",
+        "desc": "Projects seeking investment or incubation can apply through our website's submission form or reach out to our team via email at investments@ggventures.com. We review all applications thoroughly and respond to promising opportunities that align with our investment criteria and strategic vision."
+    },
+    {
+        "id": 8,
+        "title": "What is GGV's stance on regulatory compliance in the crypto space?",
+        "desc": "We maintain a strong commitment to regulatory compliance across all our operations. We work closely with regulatory experts in each jurisdiction where we operate, ensuring that both our services and our portfolio companies adhere to relevant regulations while navigating the evolving regulatory landscape responsibly."
+    },
+    {
+        "id": 9,
+        "title": "Does GGV offer advisory services for established blockchain companies?",
+        "desc": "Yes, we provide strategic advisory services for established blockchain companies looking to scale, enter new markets, optimize tokenomics, or prepare for significant funding rounds. Our team brings decades of combined experience in blockchain, finance, and business development to support growth at any stage."
+    },
+    {
+        "id": 10,
+        "title": "How does GGV evaluate potential blockchain investments?",
+        "desc": "We evaluate potential investments through a comprehensive framework that assesses the team's expertise and track record, technology innovation and viability, market opportunity and competitive landscape, token economics and distribution model, regulatory considerations, and alignment with our investment thesis and portfolio strategy."
+    }
+]

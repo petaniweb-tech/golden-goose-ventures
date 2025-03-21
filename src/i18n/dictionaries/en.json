@@ -1,0 +1,217 @@
+{
+    "COMMON": {
+        "NAVIGATION": {
+            "HOME": "Home",
+            "ABOUT_US": "About Us",
+            "SERVICES": "Services",
+            "PORTFOLIO": "Portfolio",
+            "INVESTOR_RELATIONS": "Investor Relations",
+            "CAREERS": "Careers",
+            "MEDIA": "Media",
+            "PARTNER_PROGRAM": "Partner Program",
+            "CONTACT_US": "Contact Us"
+        },
+        "BUTTONS": {
+            "LEARN_MORE": "Learn More",
+            "CONTACT_US": "Contact Us",
+            "APPLY_NOW": "Apply Now",
+            "SUBMIT": "Submit",
+            "READ_MORE": "Read More",
+            "DISCOVER_SERVICES": "Discover Our Services",
+            "JOIN_PARTNER": "Join Our Partner Program"
+        },
+        "FOOTER": {
+            "RIGHTS": "All Rights Reserved",
+            "PRIVACY": "Privacy Policy",
+            "TERMS": "Terms of Service",
+            "QUICK_LINKS": "Quick Links",
+            "GGV_GROUP": "GGV Group",
+            "RESOURCES": "Resources",
+            "NEWSLETTER": "Newsletter",
+            "NEED_HELP": "Need help? 24/7",
+            "PHONE_NUMBER": "+1 888-345-6789",
+            "ADDRESS": "888 Brannan St, San Francisco, CA 94103, US",
+            "EMAIL_PLACEHOLDER": "Your email address",
+            "COPYRIGHT": "Golden Gate Ventures. All Rights Reserved.",
+            "PRIVACY_POLICY": "Privacy Policy",
+            "TERMS_CONDITIONS": "Terms & Conditions",
+            "COMPANY_DESCRIPTION": "A leading investment firm focused on blockchain and cryptocurrency ventures across Asia, providing comprehensive financial solutions for innovative businesses."
+        }
+    },
+    "HEADER": {
+        "TOP_NAV": {
+            "ADDRESS": "888 Brannan St, San Francisco, CA 94103, US",
+            "EMAIL": "contact@ggventures.com"
+        },
+        "MENU": {
+            "GGV_GROUP": "GGV Group",
+            "GROUP_OVERVIEW": "Group Overview",
+            "VENTURE_CAPITAL": "Venture Capital",
+            "OTC_TRADING": "OTC Trading",
+            "MARKET_MAKING": "Market Making",
+            "ABOUT_US": "About Us",
+            "COMPANY_OVERVIEW": "Company Overview",
+            "MISSION_VALUES": "Mission & Values",
+            "CORPORATE_STRUCTURE": "Corporate Structure",
+            "TEAM": "Team",
+            "SERVICES": "Services",
+            "INCUBATION_ADVISORY": "Incubation & Advisory",
+            "PORTFOLIO": "Portfolio",
+            "BLOCKCHAIN": "Blockchain",
+            "CRYPTOCURRENCY": "Cryptocurrency",
+            "DEFI": "DeFi",
+            "WEB3": "Web3",
+            "INVESTOR_RELATIONS": "Investor Relations",
+            "CAREERS": "Careers",
+            "MEDIA": "Media",
+            "PARTNER_PROGRAM": "Partner Program",
+            "CONTACT": "Contact"
+        }
+    },
+    "HOME": {
+        "HERO": {
+            "TITLE": "Empowering the Future of Blockchain & Crypto Innovation",
+            "SUBTITLE": "Investing in visionary entrepreneurs, groundbreaking protocols, and disruptive technologies",
+            "TITLE_LINE1": "Empowering the Future",
+            "TITLE_LINE2": "of Blockchain &",
+            "TITLE_LINE3": "Crypto Innovation",
+            "SUBTITLE2": "and disruptive technologies across Asia.",
+            "SECOND_TITLE_LINE1": "Premier Blockchain",
+            "SECOND_TITLE_LINE2": "Investment Firm",
+            "SECOND_TITLE_LINE3": "In Asia-Pacific",
+            "SECOND_SUBTITLE": "Specialized in venture capital, OTC trading,",
+            "SECOND_SUBTITLE2": "market making, and startup incubation.",
+            "THIRD_TITLE_LINE1": "Building The Future",
+            "THIRD_TITLE_LINE2": "Through Strategic",
+            "THIRD_TITLE_LINE3": "Partnerships",
+            "THIRD_SUBTITLE": "Partner with us to access exclusive resources,",
+            "THIRD_SUBTITLE2": "technologies, and market opportunities."
+        },
+        "FAQS": {
+            "TAGLINE": "Empowering blockchain innovation through strategic investment and expert guidance",
+            "TITLE": "Frequently Asked Questions",
+            "ITEMS": {
+                "1": {
+                    "TITLE": "What investment sectors does Golden Gate Ventures focus on?",
+                    "DESC": "We focus primarily on blockchain, cryptocurrency, DeFi, and Web3 projects with strong fundamentals and experienced teams."
+                },
+                "2": {
+                    "TITLE": "What is your investment strategy?",
+                    "DESC": "We take a strategic approach to investing across various stages, from early-seed to Series B, with a focus on Asia-Pacific blockchain innovation."
+                },
+                "3": {
+                    "TITLE": "How does your OTC trading service work?",
+                    "DESC": "Our OTC desk provides high-volume crypto trading with competitive prices, personalized service, and best execution for institutional clients."
+                },
+                "4": {
+                    "TITLE": "What market making services do you offer?",
+                    "DESC": "We provide professional market making services to improve liquidity and price discovery for tokens and exchanges."
+                },
+                "5": {
+                    "TITLE": "How can startups apply for your incubation program?",
+                    "DESC": "Startups can apply through our website's application form. We evaluate projects based on team expertise, market potential, and innovation."
+                }
+            }
+        },
+        "MEDIA": {
+            "TITLE": "Latest News & Insights",
+            "SUBTITLE": "Stay updated with the latest developments in blockchain, cryptocurrency, and our investment activities",
+            "VIEW_ALL": "View All News & Articles"
+        },
+        "PARTNERS": {
+            "TITLE": "Our Trusted Partners",
+            "SUBTITLE": "We collaborate with leading companies and protocols in the blockchain ecosystem"
+        }
+    },
+    "ABOUT": {
+        "COMPANY_OVERVIEW": {
+            "TITLE": "About Us",
+            "SUBTITLE": "Empowering the Future of Blockchain & Crypto Innovation",
+            "DESCRIPTION": "At Golden Gate Venture, we are committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation. As a leading venture capital firm in the crypto space, we invest in visionary entrepreneurs, groundbreaking protocols, and disruptive technologies that redefine the future of finance and digital ownership."
+        },
+        "TEAM": {
+            "TITLE": "Our Team",
+            "SUBTITLE": "Meet the Visionaries Behind Golden Gate Venture"
+        },
+        "VALUES": {
+            "TITLE": "Our Vision, Mission, Core Values",
+            "VISION": "Vision",
+            "MISSION": "Mission",
+            "CORE_VALUES": "Core Values"
+        },
+        "HISTORY": {
+            "TITLE": "Our History",
+            "OVERVIEW": "Overview",
+            "MILESTONE": "Milestone"
+        }
+    },
+    "SERVICES": {
+        "TITLE": "Our Services",
+        "SUBTITLE": "Fueling the Next Generation of Crypto Innovation",
+        "VENTURE_CAPITAL": {
+            "TITLE": "Venture Capital & Token Investments",
+            "DESCRIPTION": "We invest in high-potential blockchain startups and digital assets across various stages."
+        },
+        "OTC_TRADING": {
+            "TITLE": "OTC Trading & Liquidity Solutions",
+            "DESCRIPTION": "We provide over-the-counter (OTC) trading services for high-net-worth individuals, funds, and institutional clients."
+        },
+        "MARKET_MAKING": {
+            "TITLE": "Market Making & Exchange Partnerships",
+            "DESCRIPTION": "We enhance liquidity and price stability for digital assets."
+        },
+        "INCUBATION": {
+            "TITLE": "Incubation & Advisory",
+            "DESCRIPTION": "We work closely with early-stage blockchain projects to accelerate growth, refine tokenomics, and optimize product-market fit."
+        }
+    },
+    "PORTFOLIO": {
+        "TITLE": "Portfolio",
+        "SUBTITLE": "Innovative Blockchain and Cryptocurrency Projects In Our Portfolio",
+        "VIEW_ALL": "View Our Portfolio",
+        "VENTURE_CAPITAL": "Venture Capital",
+        "LIQUID_VENTURE": "Liquid Venture",
+        "VENTURE_BUILDING": "Venture Building"
+    },
+    "INVESTOR_RELATIONS": {
+        "TITLE": "Investor Relations",
+        "CORPORATE_INFO": "CORPORATE INFO",
+        "STAKEHOLDER_INFO": "STAKEHOLDER INFO",
+        "INFORMATION_REQUEST": "Information Request"
+    },
+    "CAREERS": {
+        "TITLE": "Careers With Us",
+        "DESCRIPTION": "Join us to create impactful solutions for businesses. We are looking for self-motivated, creative and competent members, who can add value and contribute towards maintaining GGV Group's market leadership position.",
+        "ENVIRONMENT": "Our conducive and open work environment provides you with essential training and development opportunities, enabling you to expand your knowledge horizon and unleash your true potential.",
+        "CONTACT": "Contact GGV HR at hr@ggv.sg for more information."
+    },
+    "PARTNER_PROGRAM": {
+        "TITLE": "Partner Program",
+        "DESCRIPTION": "Join our partner network to access exclusive resources, technologies, and market opportunities."
+    },
+    "CONTACT": {
+        "TITLE": "Contact Us",
+        "FORM_TITLE": "Send us a message",
+        "FORM_SUBTITLE": "Connect with our investment team to discuss potential opportunities and partnerships.",
+        "FORM_SUBTITLE2": "We're always looking for innovative blockchain and cryptocurrency projects.",
+        "NAME": "Name",
+        "EMAIL": "Email",
+        "SUBJECT": "Subject",
+        "MESSAGE": "Message",
+        "SUBMIT": "Submit"
+    },
+    "FOOTER": {
+        "COMPANY_DESCRIPTION": "A leading investment firm focused on blockchain and cryptocurrency ventures across Asia, providing comprehensive financial solutions for innovative businesses.",
+        "QUICK_LINKS": "Quick Links",
+        "GGV_GROUP": "GGV Group",
+        "RESOURCES": "Resources",
+        "NEWSLETTER": "Newsletter",
+        "NEED_HELP": "Need help? 24/7",
+        "PHONE_NUMBER": "+1 888-345-6789",
+        "ADDRESS": "888 Brannan St, San Francisco, CA 94103, US",
+        "EMAIL_PLACEHOLDER": "Your email address",
+        "COPYRIGHT": "Golden Gate Ventures. All Rights Reserved.",
+        "PRIVACY_POLICY": "Privacy Policy",
+        "TERMS_CONDITIONS": "Terms & Conditions"
+    }
+}
