@@ -36,8 +36,8 @@ export default function PartnerProgramSuccessPage() {
             <h2 className="text-3xl font-bold mb-4">Application Received!</h2>
             <p className="text-lg mb-8">
               Thank you for your interest in joining the Golden Gate Ventures
-              Partner Network. We've successfully received your application and
-              our team will review it shortly.
+              Partner Network. We&apos;ve successfully received your application
+              and our team will review it shortly.
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg mb-8">
@@ -57,8 +57,8 @@ export default function PartnerProgramSuccessPage() {
                     2
                   </span>
                   <span>
-                    You'll receive an email confirmation with further details
-                    about the review process.
+                    You&apos;ll receive an email confirmation with further
+                    details about the review process.
                   </span>
                 </li>
                 <li className="flex">
@@ -66,8 +66,8 @@ export default function PartnerProgramSuccessPage() {
                     3
                   </span>
                   <span>
-                    If your application aligns with our partner criteria, we'll
-                    schedule a discussion to explore collaboration
+                    If your application aligns with our partner criteria,
+                    we&apos;ll schedule a discussion to explore collaboration
                     opportunities.
                   </span>
                 </li>

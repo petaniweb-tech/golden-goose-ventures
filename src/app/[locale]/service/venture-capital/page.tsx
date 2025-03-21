@@ -6,6 +6,8 @@ import Link from "next/link";
 import ImageFallback from "@/components/ImageFallback";
 import IconSVG from "@/components/IconSVG";
 import { useTranslation } from "@/i18n/TranslationContext";
+import Image from "next/image";
+
 export default function VentureCapitalPage() {
   const { t, locale } = useTranslation();
   // Mock data for portfolio investments
@@ -64,7 +66,7 @@ export default function VentureCapitalPage() {
                   Fueling Blockchain Innovation
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures' Venture Capital arm strategically
+                  Golden Gate Ventures&apos; Venture Capital arm strategically
                   invests in promising blockchain and cryptocurrency projects
                   across various development stages. We combine deep industry
                   expertise with a forward-looking investment approach to
@@ -209,10 +211,12 @@ export default function VentureCapitalPage() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Investment Focus Areas"
-                  className="rounded-lg shadow-lg h-full"
+                  className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -296,9 +300,9 @@ export default function VentureCapitalPage() {
                     <div className="md:w-1/2 md:pl-8">
                       <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
                         <p className="text-xs italic">
-                          "Our initial screening process focuses on finding
-                          projects that demonstrate clear product-market fit and
-                          a compelling value proposition."
+                          &ldquo;Our initial screening process focuses on
+                          finding projects that demonstrate clear product-market
+                          fit and a compelling value proposition.&rdquo;
                         </p>
                       </div>
                     </div>
@@ -310,9 +314,9 @@ export default function VentureCapitalPage() {
                     <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right">
                       <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
                         <p className="text-xs italic">
-                          "Our due diligence is rigorous, combining technical
-                          evaluation, market analysis, team assessment, and
-                          financial modeling."
+                          &ldquo;Our due diligence is rigorous, combining
+                          technical evaluation, market analysis, team
+                          assessment, and financial modeling.&rdquo;
                         </p>
                       </div>
                     </div>
@@ -350,9 +354,9 @@ export default function VentureCapitalPage() {
                     <div className="md:w-1/2 md:pl-8">
                       <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
                         <p className="text-xs italic">
-                          "Our committee brings diverse perspectives from
+                          &ldquo;Our committee brings diverse perspectives from
                           blockchain technology, finance, and entrepreneurship
-                          to evaluate each opportunity."
+                          to evaluate each opportunity.&rdquo;
                         </p>
                       </div>
                     </div>
@@ -364,9 +368,9 @@ export default function VentureCapitalPage() {
                     <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8 md:text-right">
                       <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
                         <p className="text-xs italic">
-                          "We remain actively engaged with our portfolio
+                          &ldquo;We remain actively engaged with our portfolio
                           companies, providing strategic guidance, technical
-                          insights, and valuable introductions."
+                          insights, and valuable introductions.&rdquo;
                         </p>
                       </div>
                     </div>
@@ -394,8 +398,8 @@ export default function VentureCapitalPage() {
               Ready to Partner With Us?
             </h2>
             <p className="mb-6">
-              If you're building the future of blockchain and cryptocurrency
-              technology, we'd love to hear from you.
+              If you&apos;re building the future of blockchain and
+              cryptocurrency technology, we&apos;d love to hear from you.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -476,7 +480,7 @@ export default function VentureCapitalPage() {
                 <p>
                   You can submit your project for review through our contact
                   page. Please include a brief overview of your project, the
-                  problem you're solving, your team background, current
+                  problem you&apos;re solving, your team background, current
                   traction, and funding needs.
                 </p>
               </div>

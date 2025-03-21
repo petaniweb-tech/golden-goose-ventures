@@ -2,6 +2,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PartnerEventsPage() {
   // Mock event data
@@ -105,10 +106,12 @@ export default function PartnerEventsPage() {
                   className="bg-white rounded-lg shadow-md overflow-hidden"
                 >
                   <div className="h-48 overflow-hidden">
-                    <img
+                    <Image
                       src={event.image}
                       alt={event.title}
                       className="w-full h-full object-cover"
+                      width={930}
+                      height={930}
                     />
                   </div>
 
@@ -149,13 +152,15 @@ export default function PartnerEventsPage() {
               {pastEvents.map((event) => (
                 <div
                   key={event.id}
-                  className="flex bg-white p-4 rounded-lg shadow-md"
+                  className="flex items-center p-4 bg-white rounded-lg shadow-md"
                 >
                   <div className="w-24 h-24 flex-shrink-0 overflow-hidden rounded-md mr-4">
-                    <img
+                    <Image
                       src={event.image}
                       alt={event.title}
                       className="w-full h-full object-cover"
+                      width={96}
+                      height={96}
                     />
                   </div>
 

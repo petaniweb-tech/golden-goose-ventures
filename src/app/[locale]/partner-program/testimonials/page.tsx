@@ -2,6 +2,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PartnerTestimonialsPage() {
   // Mock testimonial data
@@ -101,10 +102,12 @@ export default function PartnerTestimonialsPage() {
                 className="bg-white p-6 rounded-lg shadow-md"
               >
                 <div className="flex items-start mb-4">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-16 h-16 rounded-full object-cover mr-4"
+                    width={64}
+                    height={64}
                   />
                   <div>
                     <h3 className="font-semibold text-lg">
@@ -120,7 +123,7 @@ export default function PartnerTestimonialsPage() {
                 </div>
 
                 <blockquote className="italic text-gray-600 border-l-4 border-brown-300 pl-4 py-2 mb-4">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
               </div>
             ))}

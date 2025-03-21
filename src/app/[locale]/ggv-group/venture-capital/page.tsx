@@ -20,11 +20,11 @@ export default function VentureCapitalPage() {
               Our Venture Capital Practice
             </h2>
             <p className="text-lg mb-8">
-              Golden Gate Ventures' venture capital division identifies, invests
-              in, and supports the most promising blockchain and cryptocurrency
-              startups globally. With a proven track record of successful
-              investments and deep industry expertise, we partner with visionary
-              founders to build the future of finance.
+              Golden Gate Ventures&apos; venture capital division identifies,
+              invests in, and supports the most promising blockchain and
+              cryptocurrency startups globally. With a proven track record of
+              successful investments and deep industry expertise, we partner
+              with visionary founders to build the future of finance.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">

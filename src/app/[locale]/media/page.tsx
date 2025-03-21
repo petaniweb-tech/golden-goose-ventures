@@ -2,6 +2,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import blogData from "@/data/blog.json";
+import Image from "next/image";
 
 export default function MediaPage() {
   // Filter first 6 blog posts for display
@@ -21,7 +22,7 @@ export default function MediaPage() {
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">Latest News</h2>
             <p className="text-lg mb-12 text-center max-w-3xl mx-auto">
-              Stay informed about Golden Gate Ventures' latest investments,
+              Stay informed about Golden Gate Ventures&apos; latest investments,
               portfolio company developments, market insights, and thought
               leadership in the blockchain and cryptocurrency industry.
             </p>
@@ -33,10 +34,12 @@ export default function MediaPage() {
                   className="bg-white rounded-lg shadow-md overflow-hidden"
                 >
                   <div className="h-48 overflow-hidden">
-                    <img
+                    <Image
                       src={item.img}
                       alt={item.title}
                       className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                      width={400}
+                      height={300}
                     />
                   </div>
 
@@ -64,10 +67,12 @@ export default function MediaPage() {
                     </p>
 
                     <div className="flex items-center">
-                      <img
+                      <Image
                         src={item.avatar}
                         alt={item.author}
                         className="w-8 h-8 rounded-full mr-3"
+                        width={32}
+                        height={32}
                       />
                       <span className="text-sm font-medium">{item.author}</span>
                     </div>

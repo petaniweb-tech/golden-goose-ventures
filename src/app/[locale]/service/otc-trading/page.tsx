@@ -2,6 +2,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function OTCTradingPage() {
   // Mock data for trading pairs
@@ -95,10 +96,12 @@ export default function OTCTradingPage() {
                 </p>
               </div>
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="OTC Trading Services"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -226,10 +229,12 @@ export default function OTCTradingPage() {
                 </div>
               </div>
               <div className="order-2 md:order-1">
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="OTC Services"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -369,10 +374,12 @@ export default function OTCTradingPage() {
                 </div>
               </div>
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="OTC Trading Process"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -526,10 +533,10 @@ export default function OTCTradingPage() {
                 </h3>
                 <p>
                   OTC (over-the-counter) trading involves direct trading between
-                  two parties without using a public exchange. It's ideal for
-                  large transactions that would cause significant price slippage
-                  on exchanges, offering better execution pricing, privacy, and
-                  efficiency.
+                  two parties without using a public exchange. It&apos;s ideal
+                  for large transactions that would cause significant price
+                  slippage on exchanges, offering better execution pricing,
+                  privacy, and efficiency.
                 </p>
               </div>
 

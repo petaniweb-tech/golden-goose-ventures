@@ -56,8 +56,8 @@ export default function CryptocurrencyPortfolio() {
                 Institutional Adoption
               </h4>
               <p>
-                We're witnessing accelerating institutional adoption of digital
-                assets as a new asset class.
+                We&apos;re witnessing accelerating institutional adoption of
+                digital assets as a new asset class.
               </p>
             </div>
             <div>

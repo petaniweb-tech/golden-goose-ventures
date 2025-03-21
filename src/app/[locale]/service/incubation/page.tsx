@@ -4,6 +4,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslation } from "@/i18n/TranslationContext";
 
 export default function IncubationAdvisoryPage() {
@@ -139,17 +140,19 @@ export default function IncubationAdvisoryPage() {
                   tokenomics, regulatory compliance, and go-to-market strategy.
                 </p>
                 <p>
-                  Whether you're at the concept stage or looking to scale an
-                  established project, our tailored advisory services and
+                  Whether you&apos;re at the concept stage or looking to scale
+                  an established project, our tailored advisory services and
                   incubation program can help you navigate the complexities of
                   the blockchain ecosystem and accelerate your path to success.
                 </p>
               </div>
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Incubation & Advisory Services"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -272,7 +275,9 @@ export default function IncubationAdvisoryPage() {
                           d="M5 13l4 4L19 7"
                         />
                       </svg>
-                      <span>Access to GGV's partner and investor network</span>
+                      <span>
+                        Access to GGV&apos;s partner and investor network
+                      </span>
                     </li>
                     <li className="flex items-start">
                       <svg
@@ -449,10 +454,12 @@ export default function IncubationAdvisoryPage() {
           <div className="mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Success Stories"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
               <div>
@@ -520,7 +527,7 @@ export default function IncubationAdvisoryPage() {
               Ready to Accelerate Your Blockchain Project?
             </h2>
             <p className="mb-6">
-              Whether you're looking to join our incubation program or need
+              Whether you&apos;re looking to join our incubation program or need
               specialized advisory services, our team is ready to help you
               navigate the complexities of building in the blockchain space.
             </p>
@@ -595,7 +602,7 @@ export default function IncubationAdvisoryPage() {
                   Incubated projects typically receive an initial investment of
                   $100,000 to $250,000, with the potential for follow-on
                   investment from our venture fund. The exact amount depends on
-                  the project's stage, needs, and valuation.
+                  the project&apos;s stage, needs, and valuation.
                 </p>
               </div>
 

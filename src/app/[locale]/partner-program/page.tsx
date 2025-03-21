@@ -1,6 +1,7 @@
 import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
+import Image from "next/image";
 import Link from "next/link";
 import IconSVG from "@/components/IconSVG";
 
@@ -90,10 +91,12 @@ export default function PartnerProgramPage() {
               </div>
 
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Partner Network"
-                  className="rounded-lg shadow-md w-full"
+                  className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>

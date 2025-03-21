@@ -2,6 +2,8 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import IconSVG from "@/components/IconSVG";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function MarketMakingPage() {
   return (
@@ -77,10 +79,12 @@ export default function MarketMakingPage() {
               </div>
 
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/about/about-3.png"
                   alt="Market Making"
                   className="rounded-lg shadow-md w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>

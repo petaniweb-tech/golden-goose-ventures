@@ -1,6 +1,7 @@
 import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
+import Image from "next/image";
 
 export default function CorporateStructure() {
   return (
@@ -27,10 +28,12 @@ export default function CorporateStructure() {
           <div className="bg-gray-50 p-8 rounded-lg mb-12">
             <h3 className="text-xl font-semibold mb-4">Organizational Chart</h3>
             <div className="w-full bg-white flex items-center justify-center mb-4">
-              <img
+              <Image
                 src="/images/banner/form-benefit-two.png"
                 alt="Organization Chart"
                 className="max-h-full object-contain"
+                width={800}
+                height={600}
               />
             </div>
             <p className="text-sm text-gray-600">

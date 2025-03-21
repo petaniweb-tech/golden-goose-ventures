@@ -2,6 +2,7 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import IconSVG from "@/components/IconSVG";
+import Image from "next/image";
 
 export default function OTCTradingPage() {
   return (
@@ -29,10 +30,12 @@ export default function OTCTradingPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
               <div>
-                <img
-                  src="/images/banner/project-above-home5.png"
-                  alt="OTC Trading"
-                  className="rounded-lg shadow-md w-full"
+                <Image
+                  src="/images/blog/930x593.png"
+                  alt="OTC Trading Services"
+                  className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
 

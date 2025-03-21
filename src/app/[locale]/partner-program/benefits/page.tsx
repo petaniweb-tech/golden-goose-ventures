@@ -3,6 +3,7 @@ import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import IconSVG from "@/components/IconSVG";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PartnerBenefitsPage() {
   return (
@@ -91,10 +92,12 @@ export default function PartnerBenefitsPage() {
               </div>
 
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/about/about-1.png"
                   alt="Investment Opportunities"
                   className="rounded-lg shadow-lg w-full"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>
@@ -103,10 +106,12 @@ export default function PartnerBenefitsPage() {
           <div className="mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div>
-                <img
+                <Image
                   src="/images/about/about-2.png"
                   alt="Knowledge & Insights"
                   className="rounded-lg shadow-lg w-full"
+                  width={800}
+                  height={600}
                 />
               </div>
 
@@ -124,7 +129,7 @@ export default function PartnerBenefitsPage() {
                       Market Intelligence
                     </h3>
                     <p>
-                      Exclusive access to GGV's research reports, market
+                      Exclusive access to GGV&apos;s research reports, market
                       analysis, and industry insights covering emerging trends,
                       regulatory developments, and technology advancements.
                     </p>
@@ -215,10 +220,12 @@ export default function PartnerBenefitsPage() {
               </div>
 
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/about/about-3.png"
                   alt="Network & Collaboration"
                   className="rounded-lg shadow-lg w-full"
+                  width={800}
+                  height={600}
                 />
               </div>
             </div>

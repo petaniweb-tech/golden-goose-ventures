@@ -1,6 +1,7 @@
 import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
+import Image from "next/image";
 
 export default function CareersPage() {
   // Mock job listings data
@@ -56,7 +57,7 @@ export default function CareersPage() {
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">Our Culture</h2>
             <p className="text-lg mb-8">
-              At Golden Gate Ventures, we're building a global team of
+              At Golden Gate Ventures, we&apos;re building a global team of
               passionate individuals who are excited about the transformative
               potential of blockchain technology and digital assets. We foster a
               culture of innovation, collaboration, and continuous learning.
@@ -64,10 +65,12 @@ export default function CareersPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 items-center">
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Team Culture"
                   className="rounded-lg shadow-md w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
 
@@ -146,8 +149,8 @@ export default function CareersPage() {
 
             <div className="text-center mt-10">
               <p className="text-gray-600 mb-6">
-                Don't see a position that matches your skills? We're always
-                looking for talented individuals.
+                Don&apos;t see a position that matches your skills? We&apos;re
+                always looking for talented individuals.
               </p>
               <a
                 href="/contact"

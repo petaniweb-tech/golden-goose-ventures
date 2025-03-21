@@ -75,7 +75,7 @@ export default function TeamPage() {
             </div>
             <h3 className="text-lg font-semibold mb-2">Portfolio Growth</h3>
             <p className="text-sm">
-              Hands-on support to accelerate your company's development
+              Hands-on support to accelerate your company&apos;s development
             </p>
           </div>
         </div>

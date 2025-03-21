@@ -5,6 +5,7 @@ import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import Link from "next/link";
 import IconSVG from "@/components/IconSVG";
+import Image from "next/image";
 import { useTranslation } from "@/i18n/TranslationContext";
 
 export default function MarketMakingPage() {
@@ -101,10 +102,12 @@ export default function MarketMakingPage() {
                 </p>
               </div>
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Market Making Services"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -241,10 +244,12 @@ export default function MarketMakingPage() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Market Making Solutions"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -434,10 +439,12 @@ export default function MarketMakingPage() {
                 </div>
               </div>
               <div>
-                <img
+                <Image
                   src="/images/blog/930x593.png"
                   alt="Market Making Benefits"
                   className="rounded-lg shadow-lg w-full"
+                  width={930}
+                  height={593}
                 />
               </div>
             </div>
@@ -448,7 +455,7 @@ export default function MarketMakingPage() {
               Ready to Enhance Your Market Liquidity?
             </h2>
             <p className="mb-6">
-              Whether you're a token issuer looking to improve trading
+              Whether you&apos;re a token issuer looking to improve trading
               conditions or an exchange seeking a reliable liquidity provider,
               our market making team is ready to develop a customized solution
               for your needs.
