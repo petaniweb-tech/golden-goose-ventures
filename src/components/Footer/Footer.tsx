@@ -229,7 +229,7 @@ const Footer = () => {
                       "888 Brannan St, San Francisco, CA 94103, US"}
                   </div>
                 </div>
-                <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
+                {/* <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
                   <input
                     className="caption1 text-secondary h-full w-full pr-4 pl-3"
                     type="text"
@@ -241,7 +241,7 @@ const Footer = () => {
                   <button className="flex items-center justify-center w-[46px] h-[46px] bg-brown flex-shrink-0">
                     <Icon.PaperPlaneTilt className="text-white" />
                   </button>
-                </form>
+                </form> */}
               </div>
             </div>
           </div>
