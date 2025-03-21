@@ -34,3 +34,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Internationalization (i18n)
+
+This project uses Next.js internationalized routing with the App Router. All routes are prefixed with a locale code (`/en` or `/zh`).
+
+### Language Switching
+
+The application includes a language switcher component that allows users to switch between available languages while preserving the current route.
+
+### Using Localized Links
+
+When creating links throughout the application, use the `LocalizedLink` component instead of Next.js `Link` to ensure proper locale prefixing:
+
+```tsx
+// Import the component
+import LocalizedLink from "@/components/Link/LocalizedLink";
+
+// Use it in your JSX
+<LocalizedLink href="/about">About Us</LocalizedLink>
+```
+
+This will automatically prepend the current locale to the path, resulting in `/en/about` or `/zh/about` depending on the active locale.
+
+For external links or anchor links (starting with `http`, `https`, or `#`), the path will not be modified.
+
+### Implementation Notes
+
+- The routes structure follows Next.js App Router conventions with a `[locale]` dynamic segment at the root.
+- All link paths should be relative to the locale, not including the locale prefix.
+- The language switcher preserves the current path when switching languages.

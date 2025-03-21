@@ -1,74 +1,104 @@
-import Link from "next/link"
+"use client";
+
+import Link from "next/link";
 import Image from "next/image";
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import { useTranslation } from "@/i18n/TranslationContext";
+import portfolioData from "@/data/portfolio.json";
+
+interface PortfolioItem {
+  id: number;
+  category: string;
+  subTitle: string;
+  title: string;
+  desc: string;
+  shortDesc: string;
+  img: string;
+}
 
 const CaseStudyOne = () => {
-    return (
-        <>
-            <section className="case-study-block style-one lg:pt-[100px] sm:pt-16 pt-10">
-                <div className="container">
-                    <div className="heading text-center">
-                        <h3 className="heading3">Case Studies</h3>
-                        <div className="right flex flex-col items-center gap-2 mt-3">
-                            <div className="body3">Exploring In-Depth and Inspiring Case Studies of Success Stories</div>
-                            <Link className="flex items-center gap-2 hover:text-blue duration-300" href="/case-studies/case-studies-one">
-                                <div className="text-button">View Our Case Studies</div>
-                                <Icon.CaretDoubleRight weight="bold" className="text-xs mt-1" />
-                            </Link>
-                        </div>
-                    </div>
+  const { t, locale } = useTranslation();
+
+  // Get first item from each category
+  const featuredItems: PortfolioItem[] = [];
+  const categories = ["blockchain", "cryptocurrency", "defi", "web3"];
+
+  for (const category of categories) {
+    const item = (portfolioData as PortfolioItem[]).find(
+      (item: PortfolioItem) => item.category === category
+    );
+    if (item) {
+      featuredItems.push(item);
+    }
+  }
+
+  return (
+    <>
+      <section className="case-study-block style-one lg:pt-[100px] sm:pt-16 pt-10">
+        <div className="container">
+          <div className="heading text-center">
+            <h3 className="heading3">{t("PORTFOLIO.TITLE") || "Portfolio"}</h3>
+            <div className="right flex flex-col items-center gap-2 mt-3">
+              <div className="body3">
+                {t("PORTFOLIO.SUBTITLE") ||
+                  "Innovative Blockchain and Cryptocurrency Projects In Our Portfolio"}
+              </div>
+              <Link
+                className="flex items-center gap-2 hover:text-brown duration-300"
+                href="/portfolio"
+              >
+                <div className="text-button">
+                  {t("PORTFOLIO.VIEW_ALL") || "View Our Portfolio"}
                 </div>
-                <div className="list-case-study md:mt-10 mt-6">
-                    <div className="list grid lg:grid-cols-4 sm:grid-cols-2">
-                        <div className="w-full">
-                            <div className="case-study-item">
-                                <div className="bg-img">
-                                    <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/480x634.png" alt="img" />
-                                </div>
-                                <div className="text flex flex-col justify-between gap-3">
-                                    <div className="heading5"><Link className="text-white" href="/case-studies/case-studies-one">Trusted Advisor</Link></div>
-                                    <div className="body2 text-white">We are committed to providing reliable and high-quality financial advisory in our services.</div>
-                                    <Link className="flex items-center gap-1" href="/case-studies/case-studies-one">
-                                        <div className="text-button text-white">Read More </div>
-                                        <Icon.CaretDoubleRight weight="bold" className="text-xs text-white mt-1" />
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full">
-                            <div className="case-study-item">
-                                <div className="bg-img"> <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/480x634.png" alt="img" /></div>
-                                <div className="text flex flex-col justify-between gap-3">
-                                    <div className="heading5"><Link className="text-white" href="/case-studies/case-studies-one">Team Augmentation</Link></div>
-                                    <div className="body2 text-white">With an experienced and skilled team, we bring the necessary expertise to enhance work productivity.</div><Link className="flex items-center gap-1" href="/case-studies/case-studies-one">
-                                        <div className="text-button text-white">Read More </div><Icon.CaretDoubleRight weight="bold" className="text-xs text-white mt-1" /></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full">
-                            <div className="case-study-item">
-                                <div className="bg-img"> <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/480x634.png" alt="img" /></div>
-                                <div className="text flex flex-col justify-between gap-3">
-                                    <div className="heading5"><Link className="text-white" href="/case-studies/case-studies-one">Innovation</Link></div>
-                                    <div className="body2 text-white">We constantly seek advanced solutions to address challenges and deliver the highest value to our customers.</div><Link className="flex items-center gap-1" href="/case-studies/case-studies-one">
-                                        <div className="text-button text-white">Read More </div><Icon.CaretDoubleRight weight="bold" className="text-xs text-white mt-1" /></Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full">
-                            <div className="case-study-item">
-                                <div className="bg-img"> <Image width={5000} height={5000} className="w-full h-full block" src="/images/component/480x634.png" alt="img" /></div>
-                                <div className="text flex flex-col justify-between gap-3">
-                                    <div className="heading5"><Link className="text-white" href="/case-studies/case-studies-one">Experience</Link></div>
-                                    <div className="body2 text-white">With over 21 years of serving industrial customers and over 3000 projects, we have the experience to solve almost.</div><Link className="flex items-center gap-1" href="/case-studies/case-studies-one">
-                                        <div className="text-button text-white">Read More </div><Icon.CaretDoubleRight weight="bold" className="text-xs text-white mt-1" /></Link>
-                                </div>
-                            </div>
-                        </div>
+                <Icon.CaretDoubleRight weight="bold" className="text-xs mt-1" />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="list-case-study md:mt-10 mt-6">
+          <div className="list grid lg:grid-cols-4 sm:grid-cols-2">
+            {featuredItems.map((item, index) => (
+              <div className="w-full" key={index}>
+                <div className="case-study-item h-[500px]">
+                  <div className="bg-img h-full">
+                    <Image
+                      width={5000}
+                      height={5000}
+                      className="w-full h-full object-cover"
+                      src={item.img}
+                      alt={item.title}
+                    />
+                  </div>
+                  <div className="text flex flex-col justify-between gap-3">
+                    <div className="heading5">
+                      <Link
+                        className="text-white"
+                        href={`/${locale}/portfolio/${item.category}`}
+                      >
+                        {item.title}
+                      </Link>
                     </div>
+                    <div className="body2 text-white">{item.desc}</div>
+                    <Link
+                      className="flex items-center gap-1"
+                      href={`/${locale}/portfolio/${item.category}`}
+                    >
+                      <div className="text-button text-white">
+                        {t("COMMON.BUTTONS.READ_MORE") || "Read More"}
+                      </div>
+                      <Icon.CaretDoubleRight
+                        weight="bold"
+                        className="text-xs text-white mt-1"
+                      />
+                    </Link>
+                  </div>
                 </div>
-            </section>
-        </>
-    )
-}
-export default CaseStudyOne
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+export default CaseStudyOne;

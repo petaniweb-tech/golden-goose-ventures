@@ -1,0 +1,124 @@
+{
+    "overview": {
+        "title": "About Us",
+        "subtitle": "Empowering the Future of Blockchain & Crypto Innovation",
+        "description": "At Golden Gate Venture, we are committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation. As a leading venture capital firm in the crypto space, we invest in visionary entrepreneurs, groundbreaking protocols, and disruptive technologies that redefine the future of finance and digital ownership.",
+        "yearFounded": "2018",
+        "backgroundInfo": "Founded in 2018, our firm brings together industry veterans, financial strategists, and crypto-native builders with a shared passion for decentralization, security, and scalability. With deep expertise in blockchain infrastructure, DeFi, Web3 applications, and digital asset markets, we provide more than just capital—we offer strategic guidance, technical support, and unparalleled access to an exclusive network of partners, developers, and industry leaders."
+    },
+    "vision": {
+        "title": "Our Vision",
+        "description": "To be the leading global catalyst for blockchain innovation, supporting transformative projects that create lasting value and reshape industries."
+    },
+    "mission": {
+        "title": "Our Mission",
+        "description": "To identify, invest in, and empower the most promising blockchain entrepreneurs and projects, providing them with the capital, expertise, and network needed to build sustainable and impactful ventures."
+    },
+    "values": {
+        "title": "Core Values",
+        "items": [
+            {
+                "title": "Innovation",
+                "description": "We embrace cutting-edge technologies and creative solutions that push the boundaries of what's possible in the digital economy."
+            },
+            {
+                "title": "Integrity",
+                "description": "We maintain the highest standards of honesty, transparency, and ethical conduct in all our dealings."
+            },
+            {
+                "title": "Collaboration",
+                "description": "We foster a collaborative ecosystem where founders, investors, and industry partners work together to achieve shared success."
+            },
+            {
+                "title": "Long-term Value",
+                "description": "We focus on sustainable growth and building enduring value rather than short-term gains."
+            }
+        ]
+    },
+    "corporateStructure": {
+        "title": "Corporate Structure",
+        "divisions": [
+            {
+                "title": "Venture Capital",
+                "description": "Our flagship division focused on seed to Series B investments in blockchain startups."
+            },
+            {
+                "title": "Venture Builder",
+                "description": "An incubation program that provides hands-on support to early-stage projects from ideation to launch."
+            },
+            {
+                "title": "OTC/Market Making",
+                "description": "Specialized trading desk offering liquidity solutions and market making services for digital assets."
+            }
+        ]
+    },
+    "history": {
+        "title": "Our History",
+        "overview": "From our founding in 2018 to our current position as a leading crypto VC firm, we've consistently identified emerging trends and supported groundbreaking projects.",
+        "milestones": [
+            {
+                "year": "2018",
+                "title": "Foundation",
+                "description": "Golden Gate Venture was established with a focus on early-stage blockchain investments."
+            },
+            {
+                "year": "2019",
+                "title": "First Fund",
+                "description": "Launched our inaugural $30M fund focused on DeFi and infrastructure projects."
+            },
+            {
+                "year": "2020",
+                "title": "Expansion",
+                "description": "Expanded our team and opened offices in Singapore and San Francisco."
+            },
+            {
+                "year": "2021",
+                "title": "Growth",
+                "description": "Launched our second fund of $100M and established our Venture Builder program."
+            },
+            {
+                "year": "2022",
+                "title": "Global Reach",
+                "description": "Expanded our portfolio to include projects across five continents and launched our OTC trading desk."
+            },
+            {
+                "year": "2023",
+                "title": "Innovation Fund",
+                "description": "Established a specialized $50M fund focused exclusively on Web3 and AI integration."
+            }
+        ]
+    },
+    "team": {
+        "title": "Our Team",
+        "subtitle": "Meet the Visionaries Behind Golden Gate Venture",
+        "description": "At Golden Gate Venture, our success is driven by a team of experienced investors, engineers, analysts, and advisors who are deeply embedded in the blockchain and crypto ecosystem.",
+        "leadership": [
+            {
+                "name": "John Smith",
+                "title": "Founder & Managing Partner",
+                "bio": "With a background in traditional finance and early crypto investments, John has been an early advocate of blockchain technology, having invested in numerous successful projects. Before founding Golden Gate Venture, he played a key role in several major investment firms, driving strategic investments in emerging technologies.",
+                "image": "/images/team/john-smith.jpg"
+            },
+            {
+                "name": "Sarah Chen",
+                "title": "General Partner",
+                "bio": "A veteran in crypto markets and DeFi, Sarah brings expertise in tokenomics and fundraising. She has successfully incubated multiple DeFi protocols and is deeply involved in several prominent DAOs and governance communities.",
+                "image": "/images/team/sarah-chen.jpg"
+            }
+        ],
+        "investment": [
+            {
+                "name": "Michael Wong",
+                "title": "Head of Crypto Investments",
+                "bio": "Expert in tokenomics and liquidity strategies, having led investments in numerous DeFi, GameFi, and infrastructure projects. Passionate about supporting founders in building sustainable and scalable ecosystems.",
+                "image": "/images/team/michael-wong.jpg"
+            },
+            {
+                "name": "Lisa Johnson",
+                "title": "Blockchain & Web3 Analyst",
+                "bio": "Specializing in on-chain analytics, DeFi protocols, and smart contract audits, providing deep insights into the latest industry trends and investment opportunities.",
+                "image": "/images/team/lisa-johnson.jpg"
+            }
+        ]
+    }
+}

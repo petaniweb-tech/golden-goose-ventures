@@ -1,0 +1,217 @@
+{
+    "COMMON": {
+        "NAVIGATION": {
+            "HOME": "首页",
+            "ABOUT_US": "关于我们",
+            "SERVICES": "服务",
+            "PORTFOLIO": "投资组合",
+            "INVESTOR_RELATIONS": "投资者关系",
+            "CAREERS": "职业机会",
+            "MEDIA": "媒体",
+            "PARTNER_PROGRAM": "合作伙伴计划",
+            "CONTACT_US": "联系我们"
+        },
+        "BUTTONS": {
+            "LEARN_MORE": "了解更多",
+            "CONTACT_US": "联系我们",
+            "APPLY_NOW": "立即申请",
+            "SUBMIT": "提交",
+            "READ_MORE": "阅读更多",
+            "DISCOVER_SERVICES": "探索我们的服务",
+            "JOIN_PARTNER": "加入我们的合作伙伴计划"
+        },
+        "FOOTER": {
+            "RIGHTS": "版权所有",
+            "PRIVACY": "隐私政策",
+            "TERMS": "服务条款",
+            "QUICK_LINKS": "快速链接",
+            "GGV_GROUP": "GGV 集团",
+            "RESOURCES": "资源",
+            "NEWSLETTER": "新闻订阅",
+            "NEED_HELP": "需要帮助? 24/7",
+            "PHONE_NUMBER": "+1 888-345-6789",
+            "ADDRESS": "美国加利福尼亚州旧金山布兰南街888号，邮编94103",
+            "EMAIL_PLACEHOLDER": "您的电子邮件地址",
+            "COPYRIGHT": "金门创投。版权所有。",
+            "PRIVACY_POLICY": "隐私政策",
+            "TERMS_CONDITIONS": "条款和条件",
+            "COMPANY_DESCRIPTION": "一家专注于亚洲区块链和加密货币领域的领先投资公司，为创新企业提供全面的金融解决方案。"
+        }
+    },
+    "HEADER": {
+        "TOP_NAV": {
+            "ADDRESS": "美国加利福尼亚州旧金山布兰南街888号，邮编94103",
+            "EMAIL": "contact@ggventures.com"
+        },
+        "MENU": {
+            "GGV_GROUP": "GGV 集团",
+            "GROUP_OVERVIEW": "集团概览",
+            "VENTURE_CAPITAL": "风险投资",
+            "OTC_TRADING": "场外交易",
+            "MARKET_MAKING": "做市商",
+            "ABOUT_US": "关于我们",
+            "COMPANY_OVERVIEW": "公司概览",
+            "MISSION_VALUES": "使命和价值观",
+            "CORPORATE_STRUCTURE": "企业结构",
+            "TEAM": "团队",
+            "SERVICES": "服务",
+            "INCUBATION_ADVISORY": "孵化和咨询",
+            "PORTFOLIO": "投资组合",
+            "BLOCKCHAIN": "区块链",
+            "CRYPTOCURRENCY": "加密货币",
+            "DEFI": "去中心化金融",
+            "WEB3": "Web3",
+            "INVESTOR_RELATIONS": "投资者关系",
+            "CAREERS": "职业机会",
+            "MEDIA": "媒体",
+            "PARTNER_PROGRAM": "合作伙伴计划",
+            "CONTACT": "联系我们"
+        }
+    },
+    "HOME": {
+        "HERO": {
+            "TITLE": "助力区块链与加密货币创新的未来",
+            "SUBTITLE": "投资于有远见的企业家、开创性的协议和颠覆性的技术",
+            "TITLE_LINE1": "助力未来",
+            "TITLE_LINE2": "区块链与",
+            "TITLE_LINE3": "加密货币创新",
+            "SUBTITLE2": "以及亚洲地区的颠覆性技术。",
+            "SECOND_TITLE_LINE1": "亚太地区",
+            "SECOND_TITLE_LINE2": "领先的区块链",
+            "SECOND_TITLE_LINE3": "投资公司",
+            "SECOND_SUBTITLE": "专注于风险投资、场外交易、",
+            "SECOND_SUBTITLE2": "做市和创业孵化。",
+            "THIRD_TITLE_LINE1": "通过战略合作",
+            "THIRD_TITLE_LINE2": "共建",
+            "THIRD_TITLE_LINE3": "未来",
+            "THIRD_SUBTITLE": "与我们合作，获取专属资源、",
+            "THIRD_SUBTITLE2": "技术和市场机会。"
+        },
+        "FAQS": {
+            "TAGLINE": "通过战略投资和专业指导赋能区块链创新",
+            "TITLE": "常见问题",
+            "ITEMS": {
+                "1": {
+                    "TITLE": "金门创投专注于哪些投资领域？",
+                    "DESC": "我们主要关注具有强大基础和经验丰富团队的区块链、加密货币、DeFi和Web3项目。"
+                },
+                "2": {
+                    "TITLE": "你们的投资策略是什么？",
+                    "DESC": "我们采取战略性投资方法，从早期种子轮到B轮，专注于亚太地区的区块链创新。"
+                },
+                "3": {
+                    "TITLE": "你们的场外交易服务如何运作？",
+                    "DESC": "我们的场外交易台为机构客户提供高交易量的加密货币交易，具有竞争力的价格、个性化服务和最佳执行。"
+                },
+                "4": {
+                    "TITLE": "你们提供哪些做市服务？",
+                    "DESC": "我们提供专业的做市服务，为代币和交易所提高流动性和价格发现。"
+                },
+                "5": {
+                    "TITLE": "创业公司如何申请你们的孵化计划？",
+                    "DESC": "创业公司可以通过我们网站的申请表格申请。我们根据团队专业知识、市场潜力和创新性评估项目。"
+                }
+            }
+        },
+        "MEDIA": {
+            "TITLE": "最新新闻与见解",
+            "SUBTITLE": "关注区块链、加密货币领域的最新发展和我们的投资活动",
+            "VIEW_ALL": "查看所有新闻和文章"
+        },
+        "PARTNERS": {
+            "TITLE": "我们的信任合作伙伴",
+            "SUBTITLE": "我们与区块链生态系统中的领先公司和协议合作"
+        }
+    },
+    "ABOUT": {
+        "COMPANY_OVERVIEW": {
+            "TITLE": "关于我们",
+            "SUBTITLE": "助力区块链与加密货币创新的未来",
+            "DESCRIPTION": "在金门创投，我们致力于加速下一波区块链和加密货币创新的发展。作为加密领域的领先风险投资公司，我们投资于有远见的企业家、开创性的协议和重新定义金融和数字所有权未来的颠覆性技术。"
+        },
+        "TEAM": {
+            "TITLE": "我们的团队",
+            "SUBTITLE": "了解金门创投背后的远见者"
+        },
+        "VALUES": {
+            "TITLE": "我们的愿景、使命和核心价值观",
+            "VISION": "愿景",
+            "MISSION": "使命",
+            "CORE_VALUES": "核心价值观"
+        },
+        "HISTORY": {
+            "TITLE": "我们的历史",
+            "OVERVIEW": "概览",
+            "MILESTONE": "里程碑"
+        }
+    },
+    "SERVICES": {
+        "TITLE": "我们的服务",
+        "SUBTITLE": "推动下一代加密创新",
+        "VENTURE_CAPITAL": {
+            "TITLE": "风险投资和代币投资",
+            "DESCRIPTION": "我们投资于不同阶段的高潜力区块链初创企业和数字资产。"
+        },
+        "OTC_TRADING": {
+            "TITLE": "场外交易和流动性解决方案",
+            "DESCRIPTION": "我们为高净值个人、基金和机构客户提供场外交易服务。"
+        },
+        "MARKET_MAKING": {
+            "TITLE": "做市和交易所合作",
+            "DESCRIPTION": "我们提高数字资产的流动性和价格稳定性。"
+        },
+        "INCUBATION": {
+            "TITLE": "孵化和咨询",
+            "DESCRIPTION": "我们与早期区块链项目密切合作，加速增长，完善代币经济学，并优化产品市场契合度。"
+        }
+    },
+    "PORTFOLIO": {
+        "TITLE": "投资组合",
+        "SUBTITLE": "我们投资组合中的创新区块链和加密货币项目",
+        "VIEW_ALL": "查看我们的投资组合",
+        "VENTURE_CAPITAL": "风险投资",
+        "LIQUID_VENTURE": "流动性投资",
+        "VENTURE_BUILDING": "创业孵化"
+    },
+    "INVESTOR_RELATIONS": {
+        "TITLE": "投资者关系",
+        "CORPORATE_INFO": "公司信息",
+        "STAKEHOLDER_INFO": "利益相关者信息",
+        "INFORMATION_REQUEST": "信息请求"
+    },
+    "CAREERS": {
+        "TITLE": "加入我们",
+        "DESCRIPTION": "加入我们为企业创造有影响力的解决方案。我们寻找自我激励、富有创造力和能力的成员，他们能够增加价值并为维持GGV集团的市场领导地位做出贡献。",
+        "ENVIRONMENT": "我们具有支持性和开放性的工作环境为您提供基本的培训和发展机会，使您能够拓展知识领域并释放真正的潜力。",
+        "CONTACT": "更多信息请联系GGV人力资源：hr@ggv.sg。"
+    },
+    "PARTNER_PROGRAM": {
+        "TITLE": "合作伙伴计划",
+        "DESCRIPTION": "加入我们的合作伙伴网络，获取专属资源、技术和市场机会。"
+    },
+    "CONTACT": {
+        "TITLE": "联系我们",
+        "FORM_TITLE": "发送消息",
+        "FORM_SUBTITLE": "与我们的投资团队联系，讨论潜在的机会和合作关系。",
+        "FORM_SUBTITLE2": "我们一直在寻找创新的区块链和加密货币项目。",
+        "NAME": "姓名",
+        "EMAIL": "电子邮件",
+        "SUBJECT": "主题",
+        "MESSAGE": "消息",
+        "SUBMIT": "提交"
+    },
+    "FOOTER": {
+        "COMPANY_DESCRIPTION": "一家专注于亚洲区块链和加密货币领域的领先投资公司，为创新企业提供全面的金融解决方案。",
+        "QUICK_LINKS": "快速链接",
+        "GGV_GROUP": "GGV 集团",
+        "RESOURCES": "资源",
+        "NEWSLETTER": "新闻订阅",
+        "NEED_HELP": "需要帮助? 24/7",
+        "PHONE_NUMBER": "+1 888-345-6789",
+        "ADDRESS": "美国加利福尼亚州旧金山布兰南街888号，邮编94103",
+        "EMAIL_PLACEHOLDER": "您的电子邮件地址",
+        "COPYRIGHT": "金门创投。版权所有。",
+        "PRIVACY_POLICY": "隐私政策",
+        "TERMS_CONDITIONS": "条款和条件"
+    }
+}
