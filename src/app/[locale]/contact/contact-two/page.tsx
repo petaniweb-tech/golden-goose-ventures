@@ -50,7 +50,7 @@ export default function ContactStyleTwo() {
                         />
                       </div>
                       <div className="line-y"> </div>
-                      <div className="body2">hi.avitex@gmail.com</div>
+                      <div className="body2">hi.GGV@gmail.com</div>
                     </div>
                     <div className="item flex items-center gap-3 mt-5">
                       <div className="flex items-center justify-center w-8 h-8 bg-black rounded-full flex-shrink-0">
