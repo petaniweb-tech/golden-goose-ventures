@@ -249,7 +249,7 @@ const Footer = () => {
           <div className="footer-bottom flex items-center justify-between pt-3 pb-3">
             <div className="left-block flex items-center">
               <div className="copy-right text-white caption1">
-                ©2023{" "}
+                2025{" "}
                 {t("FOOTER.COPYRIGHT") ||
                   "Golden Gate Ventures. All Rights Reserved."}
               </div>

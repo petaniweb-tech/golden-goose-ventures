@@ -10,6 +10,7 @@ import blogData from "@/data/blog.json";
 import BlogOne from "@/components/Section/Blog/BlogOne";
 import PartnerOne from "@/components/Section/Partner/PartnerOne";
 import Footer from "@/components/Footer/Footer";
+import CtaOne from "@/components/Section/CTA/CtaOne";
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
           <CaseStudyOne />
           <FaqsOne />
           <FormRequestOne />
+          <div className="py-20">
+            <CtaOne />
+          </div>
           <BlogOne data={blogData} />
           <PartnerOne classname="bg-brown lg:mt-[100px] sm:mt-16 mt-10" />
         </main>

@@ -95,7 +95,7 @@ export default function ContactStyleOne() {
                       </div>
                       <div className="line-y"> </div>
                       <div className="text-button normal-case text-white">
-                        hi@goldengooseventures.com
+                        info@ggventures.com
                       </div>
                     </div>
                     <div className="item flex items-center gap-3 mt-5">
@@ -107,7 +107,7 @@ export default function ContactStyleOne() {
                       </div>
                       <div className="line-y"> </div>
                       <div className="text-button normal-case text-white">
-                        Singapore
+                        888 Brannan St, San Francisco, CA 94103, US
                       </div>
                     </div>
                   </div>
