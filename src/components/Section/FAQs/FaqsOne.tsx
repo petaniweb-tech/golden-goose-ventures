@@ -22,7 +22,7 @@ const FaqsOne = () => {
             <Image
               width={5000}
               height={5000}
-              src="/images/component/960x644.png"
+              src="/images/component/faq.jpg"
               alt="img"
               className="w-full"
             />
