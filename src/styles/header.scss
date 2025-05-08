@@ -106,7 +106,7 @@
 
             .sub-nav {
                 position: absolute;
-                width: 260px;
+                width: 400px;
                 left: -10px;
                 top: 80px;
                 transform: translateY(20px);
@@ -152,6 +152,41 @@
                             }
                         }
                     }
+
+                    .sub-sub-nav-item {
+                    padding: 12px 20px;
+
+                    a {
+                        position: relative;
+                        transition: all ease 0.3s;
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            top: 51%;
+                            transform: translateY(-50%);
+                            width: 0;
+                            height: 2px;
+                            background-color: var(--blue);
+                            border-radius: 6px;
+                            transition: all ease 0.3s;
+                        }
+                    }
+
+                    &:hover {
+                        a {
+                            color: var(--blue);
+                            padding-left: 20px;
+
+                            &::before {
+                                width: 12px;
+                            }
+                        }
+                    }
+                }
                 }
 
                 .sub-nav-item.active {
@@ -163,6 +198,33 @@
                             width: 12px;
                         }
                     }
+                }
+                .sub-sub-nav-item.active {
+                    a {
+                        color: var(--blue);
+                        padding-left: 20px;
+
+                        &::before {
+                            width: 12px;
+                        }
+                    }
+                }
+
+                .sub-nav-item:hover > .sub-nav-link,
+                .sub-sub-nav-item:hover > .sub-sub-nav-link,
+                .sub-nav-item.active > .sub-nav-link {
+                    color: var(--blue);
+                    padding-left: 20px;
+                }
+
+                .sub-nav-item:hover > .sub-nav-link::before,
+                .sub-nav-item.active > .sub-nav-link::before {
+                    width: 12px;
+                }
+
+                .sub-sub-nav-item:hover > .sub-sub-nav-link::before,
+                .sub-sub-nav-item.active > .sub-sub-nav-link::before {
+                    width: 12px;
                 }
             }
 

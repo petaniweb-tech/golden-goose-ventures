@@ -9,28 +9,19 @@ import OurTeam from "@/components/Section/OurTeam/OurTeam"
 import PartnerAbout from "@/components/Section/Partner/PartnerAbout"
 import CtaOne from "@/components/Section/CTA/CtaOne"
 import Footer from "@/components/Footer/Footer"
+import Link from "next/link";
 
-export default function AboutStyleOne() {
+export default function OurCompanyPage() {
   return (
-    <>
-      <div className="overflow-x-hidden">
-        <header id="header">
-          <TopNavOne />
-          <MenuOne />
-        </header>
-        <main className="content">
-          <BreadcrumbItem link="About Us" img="/images/banner/about1.png" title="About Us" desc="We perform a full analysis of the client’s website and collect information about all the competitors to formulate a proper strategy." />
-          <AboutTwo />
-          <CounterTwo classname="lg:pb-[100px] sm:pb-16 pb-10" />
-          <ServiceAboutOne data={serviceData} />
-          <OurTeam />
-          <PartnerAbout />
-          <CtaOne />
-        </main>
-        <footer id="footer">
-          <Footer />
-        </footer>
-      </div >
-    </>
-  )
+    <div className="container mx-auto px-4 py-16">
+      <nav className="mb-4 text-sm">
+        <Link href="/about" className="text-blue-600 hover:underline">
+          About Us
+        </Link>{" "}
+        &gt; Our Company
+      </nav>
+      <h1 className="text-3xl font-bold mb-6">Our Company</h1>
+      <p>Information about our company will be added here.</p>
+    </div>
+  );
 }

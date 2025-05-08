@@ -9,75 +9,65 @@ import IconSVG from "@/components/IconSVG";
 export default function TeamPage() {
   return (
     <>
+      <div className="container mx-auto px-4 py-4">
+        <nav className="mb-4 text-sm">
+          <Link href="/about" className="text-blue-600 hover:underline">
+            About Us
+          </Link>{" "}
+          &gt; OTC / Market Making
+        </nav>
+      </div>
       <BreadcrumbItem
-        link="Our Team"
+        link="OTC / Market Making"
         img="/images/banner/about1.png"
-        title="Our Team"
-        desc="Meet the exceptional professionals behind Golden Gate Ventures' success. Our team brings together expertise in blockchain technology, venture capital, and strategic advisory."
+        title="OTC / Market Making"
+        desc="Professional liquidity solutions and market support for digital assets."
       />
 
-      <div className="container mx-auto px-4 py-12">
-        <div className="max-w-3xl mx-auto mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-6">Leadership Team</h2>
-          <p className="text-lg">
-            Our leadership team brings decades of combined experience in venture
-            capital, blockchain technology, and financial markets.
-          </p>
-        </div>
-      </div>
-
-      <OurTeam />
-
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-3xl mx-auto mb-12 text-center">
-          <h2 className="text-3xl font-bold mb-6">Our Expertise</h2>
-          <p className="text-lg">
-            Our team combines deep technical knowledge with financial expertise
-            to identify and support the most promising blockchain and
-            cryptocurrency ventures.
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6 text-center">
+            OTC Trading & Liquidity Solutions
+          </h2>
+          <p className="text-lg mb-8 text-center">
+            We provide over-the-counter (OTC) trading services for
+            high-net-worth individuals, funds, and institutional clients.
           </p>
-        </div>
+          <ul className="list-disc list-inside mb-8 text-md">
+            <li>
+              <strong>Deep Liquidity</strong> – Access to global liquidity pools
+              for seamless execution of large trades.
+            </li>
+            <li>
+              <strong>Competitive Pricing</strong> – Tight spreads and minimal
+              slippage for optimal trade execution.
+            </li>
+            <li>
+              <strong>Privacy &amp; Compliance</strong> – Secure, discreet, and
+              regulatory-compliant trading solutions.
+            </li>
+          </ul>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-1" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Investment Strategy</h3>
-            <p className="text-sm">
-              Expert portfolio management and strategic investment planning
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-2" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Industry Expertise</h3>
-            <p className="text-sm">
-              Deep knowledge across blockchain, DeFi, and emerging technologies
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-3" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Global Network</h3>
-            <p className="text-sm">
-              Extensive connections with industry leaders and strategic partners
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-4" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Portfolio Growth</h3>
-            <p className="text-sm">
-              Hands-on support to accelerate your company&apos;s development
-            </p>
-          </div>
+          <h2 className="text-3xl font-bold mb-6 text-center mt-12">
+            Market Making & Exchange Partnerships
+          </h2>
+          <p className="text-lg mb-8 text-center">
+            We enhance liquidity and price stability for digital assets through:
+          </p>
+          <ul className="list-disc list-inside mb-8 text-md">
+            <li>
+              <strong>Order Book Management</strong> – Maintaining deep order
+              books for healthier market dynamics.
+            </li>
+            <li>
+              <strong>Algorithmic Trading</strong> – Providing AI-driven
+              strategies for efficient execution and risk management.
+            </li>
+            <li>
+              <strong>Exchange Market Support</strong> – Partnering with
+              exchanges to optimize liquidity and listing strategies.
+            </li>
+          </ul>
         </div>
       </div>
 

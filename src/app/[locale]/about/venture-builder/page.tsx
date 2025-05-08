@@ -6,78 +6,74 @@ import Link from "next/link";
 import ImageFallback from "@/components/ImageFallback";
 import IconSVG from "@/components/IconSVG";
 
-export default function TeamPage() {
+export default function VentureBuilderPage() {
   return (
     <>
-      <BreadcrumbItem
-        link="Our Team"
-        img="/images/banner/about1.png"
-        title="Our Team"
-        desc="Meet the exceptional professionals behind Golden Gate Ventures' success. Our team brings together expertise in blockchain technology, venture capital, and strategic advisory."
-      />
-
-      <div className="container mx-auto px-4 py-12">
-        <div className="max-w-3xl mx-auto mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-6">Leadership Team</h2>
-          <p className="text-lg">
-            Our leadership team brings decades of combined experience in venture
-            capital, blockchain technology, and financial markets.
-          </p>
-        </div>
+      <div className="container mx-auto px-4 py-4">
+        <nav className="mb-4 text-sm">
+          <Link href="/about" className="text-blue-600 hover:underline">
+            About Us
+          </Link>{" "}
+          &gt; Venture Builder
+        </nav>
       </div>
 
-      <OurTeam />
+      <BreadcrumbItem
+        link="Venture Builder"
+        img="/images/banner/about1.png"
+        title="Venture Builder for Crypto & Web3 Incubator"
+        desc="A hands-on startup studio building and scaling blockchain projects from the ground up."
+      />
 
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-3xl mx-auto mb-12 text-center">
-          <h2 className="text-3xl font-bold mb-6">Our Expertise</h2>
-          <p className="text-lg">
-            Our team combines deep technical knowledge with financial expertise
-            to identify and support the most promising blockchain and
-            cryptocurrency ventures.
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6 text-center">
+            Venture Builder for Crypto &amp; Web3 Incubator
+          </h2>
+          <p className="text-lg mb-8 text-center">
+            A venture builder (or &quot;startup studio&quot;) is an active,
+            hands-on incubator that doesn&apos;t just fund projects—it builds
+            them from scratch. Unlike traditional accelerators, a venture
+            builder provides full-stack support: ideation, technical
+            development, tokenomics, governance, and go-to-market strategy.
           </p>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-1" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Investment Strategy</h3>
-            <p className="text-sm">
-              Expert portfolio management and strategic investment planning
-            </p>
-          </div>
+          <h3 className="text-2xl font-semibold mb-4 mt-10">Core Structure</h3>
+          <ul className="list-disc list-inside mb-6 text-md">
+            <li>
+              <strong>In-House Labs</strong> – Internal team of blockchain devs,
+              economists, and growth hackers who prototype new projects.
+            </li>
+            <li>
+              <strong>Portfolio Incubation</strong> – Selected external startups
+              receive capital + operational support (legal, marketing, smart
+              contract audits).
+            </li>
+            <li>
+              <strong>Shared Resources</strong> – Legal, token engineering, and
+              community growth teams support all ventures.
+            </li>
+            <li>
+              <strong>Tokenized Ownership</strong> – Venture builder takes
+              equity + tokens in projects, aligning long-term incentives.
+            </li>
+          </ul>
 
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-2" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Industry Expertise</h3>
-            <p className="text-sm">
-              Deep knowledge across blockchain, DeFi, and emerging technologies
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-3" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Global Network</h3>
-            <p className="text-sm">
-              Extensive connections with industry leaders and strategic partners
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <div className="h-16 w-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconSVG type="service-4" size={32} color="#925034" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">Portfolio Growth</h3>
-            <p className="text-sm">
-              Hands-on support to accelerate your company&apos;s development
-            </p>
-          </div>
+          <h3 className="text-2xl font-semibold mb-4 mt-10">Key Advantages</h3>
+          <ul className="mb-8 text-md">
+            <li className="flex items-center mb-2">
+              <span className="text-green-600 mr-2">✅</span>Faster Execution –
+              Pre-vetted talent and resources reduce startup friction.
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-green-600 mr-2">✅</span>Diversified Risk –
+              Multiple projects in parallel increase success odds.
+            </li>
+            <li className="flex items-center mb-2">
+              <span className="text-green-600 mr-2">✅</span>Network Effects –
+              Cross-pollination between incubated projects boosts growth.
+            </li>
+          </ul>
         </div>
       </div>
 
