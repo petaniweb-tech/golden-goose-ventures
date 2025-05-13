@@ -12,7 +12,6 @@ const MenuOne = () => {
   const { t, locale } = useTranslation();
   const pathname = usePathname();
   const [fixedHeader, setFixedHeader] = useState(false);
-  // const [lastScrollPosition, setLastScrollPosition] = useState(0);
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   const [openSubNavMobile, setOpenSubNavMobile] = useState<number | null>(null);
 
@@ -36,12 +35,10 @@ const MenuOne = () => {
       // setLastScrollPosition(scrollPosition);
     };
 
-    // Gắn sự kiện cuộn khi component được mount
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    // Hủy sự kiện khi component bị unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -853,7 +850,10 @@ const MenuOne = () => {
                     }`}
                   >
                     {" "}
-                    <Link className="sub-nav-link font-medium" href="#!">
+                    <Link
+                      className="sub-nav-link font-medium"
+                      href={`/${locale}/investor-relations/stakeholder-info`}
+                    >
                       {t("HEADER.MENU.STAKEHOLDER_INFO_IR")}
                     </Link>
                     <ul className="sub-nav-item">
@@ -866,7 +866,7 @@ const MenuOne = () => {
                       >
                         {" "}
                         <Link
-                          className="sub-nav-link font-medium"
+                          className="sub-sub-nav-link font-medium"
                           href={`/${locale}/investor-relations/newsroom`}
                         >
                           {t("HEADER.MENU.NEWSROOM")}
@@ -884,7 +884,10 @@ const MenuOne = () => {
                     }`}
                   >
                     {" "}
-                    <Link className="sub-nav-link font-medium" href="#!">
+                    <Link
+                      className="sub-nav-link font-medium"
+                      href={`/${locale}/investor-relations/information-request`}
+                    >
                       {t("HEADER.MENU.INFORMATION_REQUEST_IR")}
                     </Link>
                     <ul className="sub-nav-item">
