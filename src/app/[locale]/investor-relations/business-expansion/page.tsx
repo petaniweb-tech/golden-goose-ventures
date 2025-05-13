@@ -2,113 +2,92 @@ import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
 import IconSVG from "@/components/IconSVG";
+import Link from "next/link";
 
-export default function VentureCapitalPage() {
+export default function BusinessExpansionPage() {
   return (
     <>
       <BreadcrumbItem
-        link="Venture Capital"
+        link="Business Expansion"
         img="/images/banner/about1.png"
-        title="Venture Capital"
-        desc="Golden Gate Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
+        title="Business Expansion Strategies"
+        desc="Scaling with precision—discover how Golden Goose Ventures drives growth and innovation across markets and verticals."
       />
 
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">
-              Our Venture Capital Practice
+              Scaling with Precision
             </h2>
-            <p className="text-lg mb-8">
-              Golden Gate Ventures&apos; venture capital division identifies,
-              invests in, and supports the most promising blockchain and
-              cryptocurrency startups globally. With a proven track record of
-              successful investments and deep industry expertise, we partner
-              with visionary founders to build the future of finance.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-              <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4">Investment Focus</h3>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Blockchain Infrastructure</li>
-                  <li>Digital Asset Platforms</li>
-                  <li>DeFi Protocols</li>
-                  <li>Web3 Applications</li>
-                  <li>Crypto Financial Services</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4">
-                  Investment Stages
-                </h3>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Seed Stage</li>
-                  <li>Series A</li>
-                  <li>Series B</li>
-                  <li>Strategic Later-Stage Investments</li>
-                  <li>Secondary Opportunities</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-center">
-              Our Approach
-            </h2>
-
             <div className="bg-gray-50 p-8 rounded-lg mb-12">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-brown-500 rounded-full flex items-center justify-center mx-auto mb-4">
                     <IconSVG type="service-1" size={32} color="#FFFFFF" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Rigorous Due Diligence
-                  </h3>
+                  <h4 className="text-lg font-semibold mb-2">
+                    Geographic Growth
+                  </h4>
                   <p>
-                    Comprehensive evaluation of technology, team, market fit,
-                    and growth potential.
+                    Targeting emerging markets (UAE, SE Asia) via local joint
+                    ventures and strategic partnerships to unlock new
+                    opportunities.
                   </p>
                 </div>
-
                 <div className="text-center">
                   <div className="w-16 h-16 bg-brown-500 rounded-full flex items-center justify-center mx-auto mb-4">
                     <IconSVG type="service-2" size={32} color="#FFFFFF" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Hands-on Support
-                  </h3>
+                  <h4 className="text-lg font-semibold mb-2">
+                    Vertical Integration
+                  </h4>
                   <p>
-                    Strategic guidance, industry connections, and operational
-                    expertise for portfolio companies.
+                    Acquiring analytics tools and infrastructure to enhance due
+                    diligence, portfolio monitoring, and operational efficiency.
                   </p>
                 </div>
-
                 <div className="text-center">
                   <div className="w-16 h-16 bg-brown-500 rounded-full flex items-center justify-center mx-auto mb-4">
                     <IconSVG type="service-3" size={32} color="#FFFFFF" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Long-term Partners
-                  </h3>
+                  <h4 className="text-lg font-semibold mb-2">
+                    Tokenized Ventures
+                  </h4>
                   <p>
-                    Committed to supporting companies through their entire
-                    growth journey.
+                    Spin-out projects with shared equity and token incentives,
+                    aligning interests and accelerating ecosystem growth.
+                  </p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-brown-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <IconSVG type="service-4" size={32} color="#FFFFFF" />
+                  </div>
+                  <h4 className="text-lg font-semibold mb-2">
+                    Strategic Alliances
+                  </h4>
+                  <p>
+                    Partnering with Tier-1 exchanges and institutional players
+                    for liquidity access and market expansion.
                   </p>
                 </div>
               </div>
             </div>
-
-            <div className="text-center mb-12">
-              <a
-                href="/portfolio"
-                className="inline-block px-8 py-3 bg-brown-500 text-white rounded-md font-medium hover:bg-brown-600 transition-colors"
-              >
-                View Our Portfolio
-              </a>
+            <div className="text-center mb-8">
+              <Link href="/contact/partnership" legacyBehavior>
+                <a className="inline-block px-8 py-3 bg-brown-500 text-white rounded-md font-medium hover:bg-brown-600 transition-colors">
+                  Propose a Partnership
+                </a>
+              </Link>
+            </div>
+            <div className="text-center text-gray-600 text-sm">
+              <p>
+                Golden Goose Ventures leverages a data-driven, collaborative
+                approach to business expansion—combining local market expertise,
+                vertical integration, and innovative token models. Our strategic
+                alliances and commitment to operational excellence ensure
+                sustainable growth for our partners and portfolio companies.
+              </p>
             </div>
           </div>
         </div>
