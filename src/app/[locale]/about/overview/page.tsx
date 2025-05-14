@@ -8,15 +8,6 @@ export default function OverviewPage() {
   const { locale } = useTranslation();
   return (
     <div className="container mx-auto px-4 py-16">
-      <nav className="mb-4 text-sm">
-        <Link
-          href={`/${locale}/about`}
-          className="text-blue-600 hover:underline"
-        >
-          About Us
-        </Link>{" "}
-        &gt; Overview
-      </nav>
       <h1 className="text-3xl font-bold mb-6">Overview</h1>
       <p className="mb-8">
         Learn more about our vision, investment focus, and history.

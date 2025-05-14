@@ -7,14 +7,14 @@ import Link from "next/link";
 export default function CorporateStructure() {
   return (
     <>
-      <div className="container mx-auto px-4 py-4">
+      {/* <div className="container mx-auto px-4 py-4">
         <nav className="mb-4 text-sm">
           <Link href="/about" className="text-blue-600 hover:underline">
             About Us
           </Link>{" "}
           &gt; Corporate Structure
         </nav>
-      </div>
+      </div> */}
       <BreadcrumbItem
         link="Corporate Structure"
         img="/images/banner/about1.png"
@@ -34,7 +34,7 @@ export default function CorporateStructure() {
             crypto investments.
           </p>
 
-          <div className="bg-gray-50 p-8 rounded-lg mb-12">
+          {/* <div className="bg-gray-50 p-8 rounded-lg mb-12">
             <h3 className="text-xl font-semibold mb-4">Organizational Chart</h3>
             <div className="w-full bg-white flex items-center justify-center mb-4">
               <Image
@@ -49,7 +49,7 @@ export default function CorporateStructure() {
               The structure below ensures clear lines of responsibility, risk
               isolation, and global operational reach.
             </p>
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* 1. Holding Company */}

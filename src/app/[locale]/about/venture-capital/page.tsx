@@ -9,14 +9,6 @@ import IconSVG from "@/components/IconSVG";
 export default function VentureCapitalPage() {
   return (
     <>
-      <div className="container mx-auto px-4 py-4">
-        <nav className="mb-4 text-sm">
-          <Link href="/about" className="text-blue-600 hover:underline">
-            About Us
-          </Link>{" "}
-          &gt; Venture Capital
-        </nav>
-      </div>
       <BreadcrumbItem
         link="Venture Capital"
         img="/images/banner/about1.png"

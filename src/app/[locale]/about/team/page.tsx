@@ -9,15 +9,6 @@ import IconSVG from "@/components/IconSVG";
 export default function TeamPage() {
   return (
     <>
-      <div className="container mx-auto px-4 py-4">
-        <nav className="mb-4 text-sm">
-          <Link href="/about" className="text-blue-600 hover:underline">
-            About Us
-          </Link>{" "}
-          &gt; Our Team
-        </nav>
-      </div>
-
       <BreadcrumbItem
         link="Our Team"
         img="/images/banner/about1.png"
