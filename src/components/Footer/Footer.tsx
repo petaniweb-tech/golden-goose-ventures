@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="footer-block bg-blue pt-[60px]">
         <div className="container">
           <div className="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
-            <div className="lg:w-1/4">
+            <div className="lg:w-1/2">
               <div className="footer-company-infor flex flex-col justify-between gap-5">
                 <Image
                   width={4000}
@@ -29,7 +29,7 @@ const Footer = () => {
                   {t("FOOTER.COMPANY_DESCRIPTION") ||
                     "A leading investment firm focused on blockchain and cryptocurrency ventures across Asia, providing comprehensive financial solutions for innovative businesses."}
                 </div>
-                <div className="list-social flex items-center gap-2.5 style-one">
+                {/* <div className="list-social flex items-center gap-2.5 style-one">
                   <Link
                     className="item rounded-full w-7 h-7 border-2 border-tan-dark flex items-center justify-center"
                     href="https://www.facebook.com/"
@@ -58,7 +58,7 @@ const Footer = () => {
                   >
                     <i className="icon-insta text-xs text-white"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="lg:w-1/2">
@@ -183,7 +183,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4">
+            {/* <div className="lg:w-1/4">
               <div className="company-contact">
                 <div className="heading text-button-sm text-tan-dark">
                   {t("FOOTER.NEWSLETTER") || "Newsletter"}
@@ -229,21 +229,8 @@ const Footer = () => {
                       "888 Brannan St, San Francisco, CA 94103, US"}
                   </div>
                 </div>
-                {/* <form className="send-block mt-5 flex items-center h-[46px] rounded-lg overflow-hidden">
-                  <input
-                    className="caption1 text-secondary h-full w-full pr-4 pl-3"
-                    type="text"
-                    placeholder={
-                      t("FOOTER.EMAIL_PLACEHOLDER") || "Your email address"
-                    }
-                    required
-                  />
-                  <button className="flex items-center justify-center w-[46px] h-[46px] bg-brown flex-shrink-0">
-                    <Icon.PaperPlaneTilt className="text-white" />
-                  </button>
-                </form> */}
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="border-line"></div>
           <div className="footer-bottom flex items-center justify-between pt-3 pb-3">
@@ -255,21 +242,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="right-block">
-              <div className="nav-link flex items-center gap-2.5">
-                {/* <Link
-                  className="text-white caption1 hover-underline"
-                  href={`/${locale}/privacy-policy`}
-                >
-                  {t("FOOTER.PRIVACY_POLICY") || "Privacy Policy"}
-                </Link>
-                <span className="text-white caption1">|</span>
-                <Link
-                  className="text-white caption1 hover-underline"
-                  href={`/${locale}/terms-conditions`}
-                >
-                  {t("FOOTER.TERMS_CONDITIONS") || "Terms & Conditions"}
-                </Link> */}
-              </div>
+              <div className="nav-link flex items-center gap-2.5"></div>
             </div>
           </div>
         </div>

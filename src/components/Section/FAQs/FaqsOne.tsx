@@ -15,7 +15,7 @@ const FaqsOne = () => {
   };
 
   return (
-    <section className="faqs-block style-one lg:mt-[100px] sm:mt-16 mt-10">
+    <section className="faqs-block style-one lg:mt-[0px] sm:mt-2 mt-2">
       <div className="flex max-xl:flex-wrap main">
         <div className="w-full xl:w-1/2">
           <div className="bg-img w-full">
