@@ -23,7 +23,7 @@ const Footer = () => {
                   height={3000}
                   className="footer-logo w-[300px]"
                   src="/images/LogoWhite.png"
-                  alt="Golden Gate Ventures"
+                  alt="Golden Goose Ventures"
                 />
                 <div className="text caption1 text-white">
                   {t("FOOTER.COMPANY_DESCRIPTION") ||
@@ -251,7 +251,7 @@ const Footer = () => {
               <div className="copy-right text-white caption1">
                 2025{" "}
                 {t("FOOTER.COPYRIGHT") ||
-                  "Golden Gate Ventures. All Rights Reserved."}
+                  "Golden Goose Ventures. All Rights Reserved."}
               </div>
             </div>
             <div className="right-block">

@@ -12,7 +12,7 @@ export default function PartnerProgramPage() {
         link="Partner Program"
         img="/images/banner/about1.png"
         title="Partner Program"
-        desc="Join Golden Gate Ventures' exclusive partner network and access premium opportunities in the blockchain and cryptocurrency ecosystem."
+        desc="Join Golden Goose Ventures' exclusive partner network and access premium opportunities in the blockchain and cryptocurrency ecosystem."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -22,7 +22,7 @@ export default function PartnerProgramPage() {
               GGV Partner Network
             </h2>
             <p className="text-lg mb-8">
-              The Golden Gate Ventures Partner Network brings together industry
+              The Golden Goose Ventures Partner Network brings together industry
               leaders, technology experts, institutional investors, and
               corporate partners to create a powerful ecosystem that accelerates
               innovation and growth in the blockchain and cryptocurrency space.
@@ -318,7 +318,7 @@ export default function PartnerProgramPage() {
                     id="message"
                     rows={4}
                     className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-brown-500"
-                    placeholder="Tell us about your organization and how you envision partnering with Golden Gate Ventures..."
+                    placeholder="Tell us about your organization and how you envision partnering with Golden Goose Ventures..."
                   ></textarea>
                 </div>
               </div>

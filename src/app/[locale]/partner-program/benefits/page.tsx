@@ -12,7 +12,7 @@ export default function PartnerBenefitsPage() {
         link="Partner Benefits"
         img="/images/banner/about1.png"
         title="Partner Program Benefits"
-        desc="Discover the exclusive advantages and opportunities available to members of the Golden Gate Ventures Partner Network."
+        desc="Discover the exclusive advantages and opportunities available to members of the Golden Goose Ventures Partner Network."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -22,7 +22,7 @@ export default function PartnerBenefitsPage() {
               Why Join Our Partner Network?
             </h2>
             <p className="text-lg mb-10 max-w-3xl mx-auto">
-              The Golden Gate Ventures Partner Network offers a comprehensive
+              The Golden Goose Ventures Partner Network offers a comprehensive
               range of benefits designed to create value for our partners while
               fostering a collaborative ecosystem within the blockchain and
               cryptocurrency industry.
@@ -564,7 +564,7 @@ export default function PartnerBenefitsPage() {
             </h2>
             <p className="mb-6">
               Apply today to start accessing the exclusive benefits of the
-              Golden Gate Ventures Partner Program.
+              Golden Goose Ventures Partner Program.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -61,7 +61,7 @@ const MenuOne = () => {
               src={'/images/Logo.png'}
               width={2000}
               height={1000}
-              alt="Golden Gate Ventures"
+              alt="Golden Goose Ventures"
               priority={true}
               className="w-[200px] max-sm:w-[132px]"
             />
@@ -1625,6 +1625,61 @@ const MenuOne = () => {
                             href={`/${locale}/investor-relations/business-expansion`}
                           >
                             {t('HEADER.MENU.BUSINESS_EXPANSION_STRATEGY')}
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
+                      {" "}
+                      <Link
+                        className="sub-nav-link text-base"
+                        href={`/${locale}/investor-relations/stakeholder-info`}
+                      >
+                        {t("HEADER.MENU.STAKEHOLDER_INFO_IR")}
+                      </Link>
+                      <ul className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
+                        <li
+                          className={`sub-nav-item ${
+                            pathname ===
+                            `/${locale}/investor-relations/newsroom`
+                              ? "active"
+                              : ""
+                          }`}
+                        >
+                          {" "}
+                          <Link
+                            className="sub-sub-nav-link font-medium"
+                            href={`/${locale}/investor-relations/newsroom`}
+                          >
+                            {t("HEADER.MENU.NEWSROOM")}
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
+                      {" "}
+                      <Link
+                        className="sub-nav-link text-base"
+                        href={`/${locale}/investor-relations/information-request`}
+                      >
+                        {t("HEADER.MENU.INFORMATION_REQUEST_IR")}
+                      </Link>
+                      <ul className="sub-nav-item pl-3 pr-3 pt-2 pb-2">
+                        <li
+                          className={`sub-nav-item ${
+                            pathname ===
+                            `/${locale}/investor-relations/subscription`
+                              ? "active"
+                              : ""
+                          }`}
+                        >
+                          {" "}
+                          <Link
+                            className="sub-nav-link font-medium"
+                            href={`/${locale}/investor-relations/subscription`}
+                          >
+                            {t("HEADER.MENU.SUBSCRIPTION")}
                           </Link>
                         </li>
                       </ul>

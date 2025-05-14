@@ -73,10 +73,12 @@ export default function LiquiditySolutionsPage() {
                   Seamless Liquidity for Digital Assets
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures provides cutting-edge liquidity solutions
-                  for tokens and NFTs. Our OTC desk and algorithmic
-                  market-making services are designed to ensure smooth trading
-                  experiences with minimal slippage and maximum efficiency.
+                  Golden Goose Ventures offers comprehensive incubation and
+                  advisory services designed specifically for blockchain
+                  startups and projects. Our team of industry experts provides
+                  hands-on support across every aspect of building a successful
+                  blockchain business, from technical architecture to
+                  tokenomics, regulatory compliance, and go-to-market strategy.
                 </p>
                 <p>
                   Whether you are a project owner, institutional investor, or

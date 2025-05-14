@@ -88,7 +88,7 @@ export default function MarketMakingPage() {
                   Institutional Market Making
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures provides professional market making
+                  Golden Goose Ventures provides professional market making
                   services to enhance liquidity and trading efficiency for
                   digital assets. Our algorithmic trading systems maintain tight
                   bid-ask spreads, minimize price slippage, and ensure market

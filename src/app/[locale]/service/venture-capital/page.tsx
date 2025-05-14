@@ -66,7 +66,7 @@ export default function VentureCapitalPage() {
                   Fueling Blockchain Innovation
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures&apos; Venture Capital arm strategically
+                  Golden Goose Ventures&apos; Venture Capital arm strategically
                   invests in promising blockchain and cryptocurrency projects
                   across various development stages. We combine deep industry
                   expertise with a forward-looking investment approach to

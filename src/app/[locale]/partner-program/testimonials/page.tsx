@@ -69,7 +69,7 @@ export default function PartnerTestimonialsPage() {
       role: "CEO",
       image: "/images/team/member6.png",
       quote:
-        "Our strategic partnership with Golden Gate Ventures has been instrumental in our expansion into Asian markets. Their team's connections and regional expertise have helped us navigate complex regulatory environments.",
+        "Our strategic partnership with Golden Goose Ventures has been instrumental in our expansion into Asian markets. Their team's connections and regional expertise have helped us navigate complex regulatory environments.",
       partnerType: "Strategic Partner",
       year: "2021",
     },
@@ -81,7 +81,7 @@ export default function PartnerTestimonialsPage() {
         link="Partner Testimonials"
         img="/images/banner/about1.png"
         title="Partner Success Stories"
-        desc="Hear from members of our partner network about their experiences and successes working with Golden Gate Ventures."
+        desc="Hear from members of our partner network about their experiences and successes working with Golden Goose Ventures."
       />
 
       <div className="container mx-auto px-4 py-16">

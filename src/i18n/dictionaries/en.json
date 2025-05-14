@@ -32,7 +32,7 @@
       "PHONE_NUMBER": "+1 888-345-6789",
       "ADDRESS": "888 Brannan St, San Francisco, CA 94103, US",
       "EMAIL_PLACEHOLDER": "Your email address",
-      "COPYRIGHT": "Golden Gate Ventures. All Rights Reserved.",
+      "COPYRIGHT": "Golden Goose Ventures. All Rights Reserved.",
       "PRIVACY_POLICY": "Privacy Policy",
       "TERMS_CONDITIONS": "Terms & Conditions",
       "COMPANY_DESCRIPTION": "A leading investment firm focused on blockchain and cryptocurrency ventures across Asia, providing comprehensive financial solutions for innovative businesses."
@@ -122,7 +122,7 @@
       "TITLE": "Frequently Asked Questions",
       "ITEMS": {
         "1": {
-          "TITLE": "What investment sectors does Golden Gate Ventures focus on?",
+          "TITLE": "What investment sectors does Golden Goose Ventures focus on?",
           "DESC": "We focus primarily on blockchain, cryptocurrency, DeFi, and Web3 projects with strong fundamentals and experienced teams."
         },
         "2": {
@@ -157,11 +157,11 @@
     "COMPANY_OVERVIEW": {
       "TITLE": "About Us",
       "SUBTITLE": "Empowering the Future of Blockchain & Crypto Innovation",
-      "DESCRIPTION": "At Golden Gate Venture, we are committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation. As a leading venture capital firm in the crypto space, we invest in visionary entrepreneurs, groundbreaking protocols, and disruptive technologies that redefine the future of finance and digital ownership."
+      "DESCRIPTION": "At Golden Goose Venture, we are committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation. As a leading venture capital firm in the crypto space, we invest in visionary entrepreneurs, groundbreaking protocols, and disruptive technologies that redefine the future of finance and digital ownership."
     },
     "TEAM": {
       "TITLE": "Our Team",
-      "SUBTITLE": "Meet the Visionaries Behind Golden Gate Venture"
+      "SUBTITLE": "Meet the Visionaries Behind Golden Goose Venture"
     },
     "VALUES": {
       "TITLE": "Our Vision, Mission, Core Values",
@@ -240,7 +240,7 @@
     "PHONE_NUMBER": "+1 888-345-6789",
     "ADDRESS": "888 Brannan St, San Francisco, CA 94103, US",
     "EMAIL_PLACEHOLDER": "Your email address",
-    "COPYRIGHT": "Golden Gate Ventures. All Rights Reserved.",
+    "COPYRIGHT": "Golden Goose Ventures. All Rights Reserved.",
     "PRIVACY_POLICY": "Privacy Policy",
     "TERMS_CONDITIONS": "Terms & Conditions"
   }

@@ -12,7 +12,7 @@ export default function MarketMakingPage() {
         link="Market Making"
         img="/images/banner/about1.png"
         title="Market Making"
-        desc="Golden Gate Ventures' specialized market making services providing liquidity for digital asset markets."
+        desc="Golden Goose Ventures' specialized market making services providing liquidity for digital asset markets."
       />
 
       <div className="container mx-auto px-4 py-16">

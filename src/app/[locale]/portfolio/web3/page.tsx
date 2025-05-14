@@ -23,7 +23,7 @@ export default function Web3Portfolio() {
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-6">Web3 Investments</h2>
           <p className="text-lg">
-            Golden Gate Ventures is backing pioneering Web3 startups that are
+            Golden Goose Ventures is backing pioneering Web3 startups that are
             building decentralized applications, metaverse experiences, and
             digital ownership solutions.
           </p>

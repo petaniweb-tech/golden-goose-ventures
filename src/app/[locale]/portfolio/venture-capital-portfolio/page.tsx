@@ -9,8 +9,8 @@ export default function VentureCapitalPage() {
       <BreadcrumbItem
         link="Venture Capital & Token Investments"
         img="/images/banner/about1.png"
-        title="Venture Capital & Token Investments"
-        desc="Golden Gate Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
+        title="Venture Capital"
+        desc="Golden Goose Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
       />
 
       <div className="container mx-auto px-4 py-16">

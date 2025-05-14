@@ -11,7 +11,7 @@ export default function OTCTradingPage() {
         link="OTC Trading"
         img="/images/banner/about1.png"
         title="OTC Trading"
-        desc="Golden Gate Ventures' over-the-counter trading desk providing high-touch service for institutional cryptocurrency transactions."
+        desc="Golden Goose Ventures' over-the-counter trading desk providing high-touch service for institutional cryptocurrency transactions."
       />
 
       <div className="container mx-auto px-4 py-16">

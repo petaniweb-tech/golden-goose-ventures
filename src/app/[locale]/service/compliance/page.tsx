@@ -60,11 +60,12 @@ export default function ComplianceAdvisoryPage() {
                   Simplifying Crypto Compliance
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures offers specialized compliance advisory
-                  services tailored for blockchain startups and enterprises. Our
-                  team of experts provides hands-on support to help you navigate
-                  the complexities of global crypto regulations, ensuring your
-                  project remains compliant and operationally efficient.
+                  Golden Goose Ventures offers comprehensive incubation and
+                  advisory services designed specifically for blockchain
+                  startups and projects. Our team of industry experts provides
+                  hands-on support across every aspect of building a successful
+                  blockchain business, from technical architecture to
+                  tokenomics, regulatory compliance, and go-to-market strategy.
                 </p>
                 <p>
                   Whether you&apos;re launching a new project or scaling an

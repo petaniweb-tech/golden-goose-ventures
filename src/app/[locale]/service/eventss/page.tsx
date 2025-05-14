@@ -73,11 +73,12 @@ export default function EventHostingPage() {
                   Empowering Blockchain Projects Through Events
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures specializes in hosting impactful events
-                  tailored for blockchain startups and enterprises. From
-                  hackathons that spark innovation to AMAs that build community
-                  trust, our events are designed to elevate your project's
-                  visibility and foster meaningful partnerships.
+                  Golden Goose Ventures offers comprehensive incubation and
+                  advisory services designed specifically for blockchain
+                  startups and projects. Our team of industry experts provides
+                  hands-on support across every aspect of building a successful
+                  blockchain business, from technical architecture to
+                  tokenomics, regulatory compliance, and go-to-market strategy.
                 </p>
                 <p>
                   Whether you're launching a new product or looking to

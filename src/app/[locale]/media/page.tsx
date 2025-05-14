@@ -14,7 +14,7 @@ export default function MediaPage() {
         link="Media"
         img="/images/banner/about1.png"
         title="Media & News"
-        desc="Stay updated with the latest news, insights, and announcements from Golden Gate Ventures."
+        desc="Stay updated with the latest news, insights, and announcements from Golden Goose Ventures."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -22,9 +22,9 @@ export default function MediaPage() {
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">Latest News</h2>
             <p className="text-lg mb-12 text-center max-w-3xl mx-auto">
-              Stay informed about Golden Gate Ventures&apos; latest investments,
-              portfolio company developments, market insights, and thought
-              leadership in the blockchain and cryptocurrency industry.
+              Stay informed about Golden Goose Ventures&apos; latest
+              investments, portfolio company developments, market insights, and
+              thought leadership in the blockchain and cryptocurrency industry.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +101,7 @@ export default function MediaPage() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                      Golden Gate Ventures Launches $300M Crypto Growth Fund
+                      Golden Goose Ventures Launches $300M Crypto Growth Fund
                     </h3>
                     <div className="text-sm text-gray-600 mb-4 md:mb-0">
                       <span className="mr-3">January 15, 2023</span> ·
@@ -124,7 +124,7 @@ export default function MediaPage() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                      Golden Gate Ventures Expands Asian Operations with Hong
+                      Golden Goose Ventures Expands Asian Operations with Hong
                       Kong Office
                     </h3>
                     <div className="text-sm text-gray-600 mb-4 md:mb-0">
@@ -148,7 +148,7 @@ export default function MediaPage() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <div>
                     <h3 className="text-xl font-semibold mb-2">
-                      Golden Gate Ventures Completes Investment in Blockchain
+                      Golden Goose Ventures Completes Investment in Blockchain
                       Infrastructure Company
                     </h3>
                     <div className="text-sm text-gray-600 mb-4 md:mb-0">

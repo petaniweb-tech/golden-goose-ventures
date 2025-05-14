@@ -85,7 +85,7 @@ export default function PartnerEventsPage() {
         link="Partner Events"
         img="/images/banner/about1.png"
         title="Partner Network Events"
-        desc="Exclusive events for members of the Golden Gate Ventures Partner Network to connect, collaborate, and gain valuable insights."
+        desc="Exclusive events for members of the Golden Goose Ventures Partner Network to connect, collaborate, and gain valuable insights."
       />
 
       <div className="container mx-auto px-4 py-16">

@@ -1,7 +1,7 @@
-# Golden Gate Venture Website Implementation Plan
+# Golden Goose Venture Website Implementation Plan
 
 ## Overview
-This document outlines the step-by-step plan for implementing the Golden Gate Venture website based on the provided mockups and existing Next.js codebase. The website will focus on showcasing GGV's blockchain and cryptocurrency investment services, portfolio, and company information with a bilingual approach (English/Chinese).
+This document outlines the step-by-step plan for implementing the Golden Goose Venture website based on the provided mockups and existing Next.js codebase. The website will focus on showcasing GGV's blockchain and cryptocurrency investment services, portfolio, and company information with a bilingual approach (English/Chinese).
 
 ## Phase 1: Setup and Configuration
 
