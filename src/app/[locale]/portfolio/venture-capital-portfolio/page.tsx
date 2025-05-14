@@ -1,13 +1,13 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
-import IconSVG from "@/components/IconSVG";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
+import IconSVG from '@/components/IconSVG';
 
 export default function VentureCapitalPage() {
   return (
     <>
       <BreadcrumbItem
-        link="Venture Capital"
+        link="Venture Capital & Token Investments"
         img="/images/banner/about1.png"
         title="Venture Capital"
         desc="Golden Goose Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
@@ -17,60 +17,67 @@ export default function VentureCapitalPage() {
         <div className="max-w-4xl mx-auto">
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">
-              Our Venture Capital Practice
+              Venture Capital & Token Investments
             </h2>
             <p className="text-lg mb-8">
-              Golden Goose Ventures&apos; venture capital division identifies,
-              invests in, and supports the most promising blockchain and
-              cryptocurrency startups globally. With a proven track record of
-              successful investments and deep industry expertise, we partner
-              with visionary founders to build the future of finance.
+              We invest in high-potential blockchain startups and digital assets
+              across various stages.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4">Investment Focus</h3>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Blockchain Infrastructure</li>
-                  <li>Digital Asset Platforms</li>
-                  <li>DeFi Protocols</li>
-                  <li>Web3 Applications</li>
-                  <li>Crypto Financial Services</li>
-                </ul>
+                <h3 className="text-xl font-semibold mb-4">
+                  Seed & Early-Stage
+                </h3>
+                <p>
+                  Supporting visionary founders with funding, mentorship, and
+                  ecosystem access.
+                </p>
               </div>
 
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold mb-4">
-                  Investment Stages
+                  Growth-Stage & Expansion
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
-                  <li>Seed Stage</li>
-                  <li>Series A</li>
-                  <li>Series B</li>
-                  <li>Strategic Later-Stage Investments</li>
-                  <li>Secondary Opportunities</li>
-                </ul>
+                <p>
+                  Scaling promising projects with liquidity, exchange listings,
+                  and institutional adoption.
+                </p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">
+                  Token Investment & Market Participation
+                </h3>
+                <p>
+                  Providing liquidity and advisory support for tokenized
+                  economies.
+                </p>
               </div>
             </div>
           </div>
 
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">
-              Our Approach
+              Our Portfolio & Governance
             </h2>
 
             <div className="bg-gray-50 p-8 rounded-lg mb-12">
+              <p className="text-lg mb-8">
+                Our portfolio includes [mention successful investments if
+                applicable], and we actively participate in governance through
+                DAO voting and network staking.
+              </p>
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-brown-500 rounded-full flex items-center justify-center mx-auto mb-4">
                     <IconSVG type="service-1" size={32} color="#FFFFFF" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">
-                    Rigorous Due Diligence
-                  </h3>
+                  <h3 className="text-lg font-semibold mb-2">DAO Voting</h3>
                   <p>
-                    Comprehensive evaluation of technology, team, market fit,
-                    and growth potential.
+                    Actively participating in decentralized governance to shape
+                    the future of blockchain networks.
                   </p>
                 </div>
 
@@ -79,11 +86,11 @@ export default function VentureCapitalPage() {
                     <IconSVG type="service-2" size={32} color="#FFFFFF" />
                   </div>
                   <h3 className="text-lg font-semibold mb-2">
-                    Hands-on Support
+                    Network Staking
                   </h3>
                   <p>
-                    Strategic guidance, industry connections, and operational
-                    expertise for portfolio companies.
+                    Supporting blockchain security and earning rewards through
+                    strategic staking initiatives.
                   </p>
                 </div>
 
@@ -92,11 +99,11 @@ export default function VentureCapitalPage() {
                     <IconSVG type="service-3" size={32} color="#FFFFFF" />
                   </div>
                   <h3 className="text-lg font-semibold mb-2">
-                    Long-term Partners
+                    Advisory Support
                   </h3>
                   <p>
-                    Committed to supporting companies through their entire
-                    growth journey.
+                    Providing expert guidance to help projects navigate
+                    tokenized economies.
                   </p>
                 </div>
               </div>
