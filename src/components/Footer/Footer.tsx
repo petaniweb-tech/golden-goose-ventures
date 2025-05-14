@@ -13,11 +13,11 @@ const Footer = () => {
 
   return (
     <div className="style-one">
-      <div className="footer-block bg-blue pt-[60px]">
+      <div className="footer-block bg-blue px-10 py-[60px]">
         <div className="container">
           <div className="flex max-lg:flex-col max-lg:items-start gap-y-10 pb-10">
             <div className="lg:w-1/2">
-              <div className="footer-company-infor flex flex-col justify-between gap-5">
+              <div className="footer-company-infor flex flex-col justify-between gap-2">
                 <Image
                   width={4000}
                   height={3000}
@@ -29,159 +29,142 @@ const Footer = () => {
                   {t("FOOTER.COMPANY_DESCRIPTION") ||
                     "A leading investment firm focused on blockchain and cryptocurrency ventures across Asia, providing comprehensive financial solutions for innovative businesses."}
                 </div>
-                {/* <div className="list-social flex items-center gap-2.5 style-one">
-                  <Link
-                    className="item rounded-full w-7 h-7 border-2 border-tan-dark flex items-center justify-center"
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                  >
-                    <i className="icon-facebook text-sm text-white"></i>
-                  </Link>
-                  <Link
-                    className="item rounded-full w-7 h-7 border-2 border-tan-dark flex items-center justify-center"
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                  >
-                    <i className="icon-in text-sm text-white"></i>
-                  </Link>
-                  <Link
-                    className="item rounded-full w-7 h-7 border-2 border-tan-dark flex items-center justify-center"
-                    href="https://x.com/"
-                    target="_blank"
-                  >
-                    <i className="icon-twitter text-xs text-white"></i>
-                  </Link>
-                  <Link
-                    className="item rounded-full w-7 h-7 border-2 border-tan-dark flex items-center justify-center"
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                  >
-                    <i className="icon-insta text-xs text-white"></i>
-                  </Link>
-                </div> */}
+
+                <div className="footer-bottom flex items-center justify-between">
+                  <div className="left-block flex items-center">
+                    <div className="copy-right text-white caption1">
+                      2025{" "}
+                      {t("FOOTER.COPYRIGHT") ||
+                        "Golden Goose Ventures. All Rights Reserved."}
+                    </div>
+                  </div>
+                  <div className="right-block">
+                    <div className="nav-link flex items-center gap-2.5"></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="lg:w-1/2">
-              <div className="footer-navigate flex items-center justify-center gap-20">
-                <div className="footer-nav-item">
-                  <div className="item-heading text-button-sm text-tan-dark">
-                    {t("FOOTER.QUICK_LINKS") || "Quick Links"}
-                  </div>
-                  <ul className="list-nav mt-1">
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/about/overview`}
-                      >
-                        {t("HEADER.MENU.ABOUT_US") || "About Us"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/service/venture-capital`}
-                      >
-                        {t("HEADER.MENU.SERVICES") || "Services"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/portfolio/blockchain`}
-                      >
-                        {t("HEADER.MENU.PORTFOLIO") || "Portfolio"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/contact`}
-                      >
-                        {t("HEADER.MENU.CONTACT") || "Contact"}
-                      </Link>
-                    </li>
-                  </ul>
+            <div className="lg:w-1/2 flex justify-center gap-20">
+              {/* <div className="footer-navigate "> */}
+              <div className="footer-nav-item">
+                <div className="item-heading text-button-sm text-tan-dark">
+                  {t("FOOTER.QUICK_LINKS") || "Quick Links"}
                 </div>
-                <div className="footer-nav-item max-sm:hidden">
-                  <div className="item-heading text-button-sm text-tan-dark">
-                    {t("FOOTER.GGV_GROUP") || "GGV Group"}
-                  </div>
-                  <ul className="list-nav mt-1">
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/ggv-group/venture-capital`}
-                      >
-                        {t("HEADER.MENU.VENTURE_CAPITAL") || "Venture Capital"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/ggv-group/otc-trading`}
-                      >
-                        {t("HEADER.MENU.OTC_TRADING") || "OTC Trading"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/ggv-group/market-making`}
-                      >
-                        {t("HEADER.MENU.MARKET_MAKING") || "Market Making"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/partner-program`}
-                      >
-                        {t("HEADER.MENU.PARTNER_PROGRAM") || "Partner Program"}
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="footer-nav-item">
-                  <div className="item-heading text-button-sm text-tan-dark">
-                    {t("FOOTER.RESOURCES") || "Resources"}
-                  </div>
-                  <ul className="list-nav mt-1">
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/media`}
-                      >
-                        {t("HEADER.MENU.MEDIA") || "Media"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/investor-relations`}
-                      >
-                        {t("HEADER.MENU.INVESTOR_RELATIONS") ||
-                          "Investor Relations"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/careers`}
-                      >
-                        {t("HEADER.MENU.CAREERS") || "Careers"}
-                      </Link>
-                    </li>
-                    <li className="mt-3">
-                      <Link
-                        className="caption1 has-line-before line-white text-white hover-underline"
-                        href={`/${locale}/about/team`}
-                      >
-                        {t("HEADER.MENU.TEAM") || "Team"}
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
+                <ul className="list-nav mt-1">
+                  <li className="mt-3">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/about/overview`}
+                    >
+                      {t("HEADER.MENU.ABOUT_US") || "About Us"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/service/venture-capital`}
+                    >
+                      {t("HEADER.MENU.SERVICES") || "Services"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/portfolio/blockchain`}
+                    >
+                      {t("HEADER.MENU.PORTFOLIO") || "Portfolio"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/contact`}
+                    >
+                      {t("HEADER.MENU.CONTACT") || "Contact"}
+                    </Link>
+                  </li>
+                </ul>
               </div>
+              <div className="footer-nav-item max-sm:hidden">
+                <div className="item-heading text-button-sm text-tan-dark">
+                  {t("FOOTER.GGV_GROUP") || "GGV Group"}
+                </div>
+                <ul className="list-nav mt-1">
+                  <li className="mt-3">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/ggv-group/venture-capital`}
+                    >
+                      {t("HEADER.MENU.VENTURE_CAPITAL") || "Venture Capital"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/ggv-group/otc-trading`}
+                    >
+                      {t("HEADER.MENU.OTC_TRADING") || "OTC Trading"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/ggv-group/market-making`}
+                    >
+                      {t("HEADER.MENU.MARKET_MAKING") || "Market Making"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/partner-program`}
+                    >
+                      {t("HEADER.MENU.PARTNER_PROGRAM") || "Partner Program"}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="footer-nav-item">
+                <div className="item-heading text-button-sm text-tan-dark">
+                  {t("FOOTER.RESOURCES") || "Resources"}
+                </div>
+                <ul className="list-nav mt-1">
+                  <li className="mt-3">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/media`}
+                    >
+                      {t("HEADER.MENU.MEDIA") || "Media"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/investor-relations`}
+                    >
+                      {t("HEADER.MENU.INVESTOR_RELATIONS") ||
+                        "Investor Relations"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/careers`}
+                    >
+                      {t("HEADER.MENU.CAREERS") || "Careers"}
+                    </Link>
+                  </li>
+                  <li className="mt-4">
+                    <Link
+                      className="caption1 has-line-before line-white text-white hover-underline"
+                      href={`/${locale}/about/team`}
+                    >
+                      {t("HEADER.MENU.TEAM") || "Team"}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              {/* </div> */}
             </div>
             {/* <div className="lg:w-1/4">
               <div className="company-contact">
@@ -232,19 +215,7 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
-          <div className="border-line"></div>
-          <div className="footer-bottom flex items-center justify-between pt-3 pb-3">
-            <div className="left-block flex items-center">
-              <div className="copy-right text-white caption1">
-                2025{" "}
-                {t("FOOTER.COPYRIGHT") ||
-                  "Golden Goose Ventures. All Rights Reserved."}
-              </div>
-            </div>
-            <div className="right-block">
-              <div className="nav-link flex items-center gap-2.5"></div>
-            </div>
-          </div>
+          {/* <div className="border-line"></div> */}
         </div>
       </div>
     </div>

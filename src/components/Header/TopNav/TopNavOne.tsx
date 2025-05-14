@@ -24,14 +24,14 @@ const TopNavOne: React.FC<TopNavOneProps> = ({ className = "" }) => {
               href="mailto:info@ggventures.com"
               className="hover:text-tan-light"
             >
-              info@ggventures.com
+              info@ggv.ltd
             </a>
           </div>
           <div className="flex items-center gap-2">
-            <Icon.Phone className="text-lg" />
+            {/* <Icon.Phone className="text-lg" />
             <a href="tel:+85281990999" className="hover:text-tan-light">
               +852 8199 0999
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="flex items-center">
