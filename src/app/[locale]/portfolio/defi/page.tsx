@@ -23,7 +23,7 @@ export default function DefiPortfolio() {
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-6">DeFi Investments</h2>
           <p className="text-lg">
-            Golden Gate Ventures invests in innovative DeFi protocols that are
+            Golden Goose Ventures invests in innovative DeFi protocols that are
             democratizing access to financial services and creating new economic
             models for the digital age.
           </p>

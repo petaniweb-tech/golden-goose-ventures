@@ -61,7 +61,7 @@ const MenuOne = () => {
               src={"/images/Logo.png"}
               width={2000}
               height={1000}
-              alt="Golden Gate Ventures"
+              alt="Golden Goose Ventures"
               priority={true}
               className="w-[200px] max-sm:w-[132px]"
             />

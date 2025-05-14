@@ -11,7 +11,7 @@ export default function InvestorRelationsPage() {
         link="Investor Relations"
         img="/images/banner/about1.png"
         title="Investor Relations"
-        desc="Information for investors and stakeholders of Golden Gate Ventures, including performance metrics and financial reports."
+        desc="Information for investors and stakeholders of Golden Goose Ventures, including performance metrics and financial reports."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -21,7 +21,7 @@ export default function InvestorRelationsPage() {
               Investor Information
             </h2>
             <p className="text-lg mb-8">
-              Golden Gate Ventures is committed to transparency and excellence
+              Golden Goose Ventures is committed to transparency and excellence
               in managing investments for our limited partners. We provide
               comprehensive reporting, regular updates, and insights into our
               investment strategy and portfolio performance.

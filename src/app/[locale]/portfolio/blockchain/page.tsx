@@ -23,7 +23,7 @@ export default function BlockchainPortfolio() {
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-6">Blockchain Investments</h2>
           <p className="text-lg">
-            Golden Gate Ventures invests in cutting-edge blockchain
+            Golden Goose Ventures invests in cutting-edge blockchain
             infrastructure companies that are building the foundation for the
             next generation of decentralized applications.
           </p>

@@ -25,7 +25,7 @@ export default function CryptocurrencyPortfolio() {
             Cryptocurrency Investments
           </h2>
           <p className="text-lg">
-            Golden Gate Ventures supports leading cryptocurrency platforms and
+            Golden Goose Ventures supports leading cryptocurrency platforms and
             infrastructure that are building secure, compliant, and accessible
             digital asset solutions.
           </p>

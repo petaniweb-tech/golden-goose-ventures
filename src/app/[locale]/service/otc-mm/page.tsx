@@ -132,7 +132,7 @@ export default function IncubationAdvisoryPage() {
                   Building Blockchain Success Stories
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures offers comprehensive incubation and
+                  Golden Goose Ventures offers comprehensive incubation and
                   advisory services designed specifically for blockchain
                   startups and projects. Our team of industry experts provides
                   hands-on support across every aspect of building a successful

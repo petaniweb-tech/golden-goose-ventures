@@ -49,7 +49,7 @@ export default function CareersPage() {
         link="Careers"
         img="/images/banner/about1.png"
         title="Join Our Team"
-        desc="Explore career opportunities at Golden Gate Ventures and be part of the future of blockchain and cryptocurrency innovation."
+        desc="Explore career opportunities at Golden Goose Ventures and be part of the future of blockchain and cryptocurrency innovation."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -57,7 +57,7 @@ export default function CareersPage() {
           <div className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-center">Our Culture</h2>
             <p className="text-lg mb-8">
-              At Golden Gate Ventures, we&apos;re building a global team of
+              At Golden Goose Ventures, we&apos;re building a global team of
               passionate individuals who are excited about the transformative
               potential of blockchain technology and digital assets. We foster a
               culture of innovation, collaboration, and continuous learning.

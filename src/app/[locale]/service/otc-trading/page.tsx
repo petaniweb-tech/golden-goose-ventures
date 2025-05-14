@@ -81,7 +81,7 @@ export default function OTCTradingPage() {
                   Professional OTC Trading Services
                 </h2>
                 <p className="mb-6">
-                  Golden Gate Ventures provides institutional-grade
+                  Golden Goose Ventures provides institutional-grade
                   over-the-counter (OTC) trading services for large volume
                   digital asset transactions. Our OTC desk caters to
                   high-net-worth individuals, funds, corporations, and

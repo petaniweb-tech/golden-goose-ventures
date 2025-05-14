@@ -26,9 +26,9 @@ const proxima = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Golden Gate Ventures",
+  title: "Golden Goose Ventures",
   description:
-    "Golden Gate Ventures - Blockchain and Cryptocurrency Investments",
+    "Golden Goose Ventures - Blockchain and Cryptocurrency Investments",
 };
 
 export default function RootLayout({

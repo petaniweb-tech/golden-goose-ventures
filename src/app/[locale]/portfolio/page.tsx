@@ -18,7 +18,7 @@ export default function PortfolioPage() {
         <div className="max-w-3xl mx-auto mb-16 text-center">
           <h2 className="text-3xl font-bold mb-6">Investment Portfolio</h2>
           <p className="text-lg">
-            Golden Gate Ventures invests in visionary teams building the future
+            Golden Goose Ventures invests in visionary teams building the future
             of blockchain and digital assets. Our portfolio spans
             infrastructure, exchanges, DeFi protocols, and Web3 applications.
           </p>

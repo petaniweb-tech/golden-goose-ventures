@@ -10,7 +10,7 @@ export default function VentureCapitalPage() {
         link="Venture Capital"
         img="/images/banner/about1.png"
         title="Venture Capital"
-        desc="Golden Gate Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
+        desc="Golden Goose Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -20,7 +20,7 @@ export default function VentureCapitalPage() {
               Our Venture Capital Practice
             </h2>
             <p className="text-lg mb-8">
-              Golden Gate Ventures&apos; venture capital division identifies,
+              Golden Goose Ventures&apos; venture capital division identifies,
               invests in, and supports the most promising blockchain and
               cryptocurrency startups globally. With a proven track record of
               successful investments and deep industry expertise, we partner

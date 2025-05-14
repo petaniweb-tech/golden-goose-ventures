@@ -22,7 +22,7 @@ export default function TeamPage() {
         link="Our Team"
         img="/images/banner/about1.png"
         title="Our Team"
-        desc="Meet the exceptional professionals behind Golden Gate Ventures' success. Our team brings together expertise in blockchain technology, venture capital, and strategic advisory."
+        desc="Meet the exceptional professionals behind Golden Goose Ventures' success. Our team brings together expertise in blockchain technology, venture capital, and strategic advisory."
       />
 
       <div className="container mx-auto px-4 py-12">

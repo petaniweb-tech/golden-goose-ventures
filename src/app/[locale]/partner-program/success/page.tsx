@@ -10,7 +10,7 @@ export default function PartnerProgramSuccessPage() {
         link="Application Submitted"
         img="/images/banner/about1.png"
         title="Application Submitted"
-        desc="Thank you for your interest in the Golden Gate Ventures Partner Program."
+        desc="Thank you for your interest in the Golden Goose Ventures Partner Program."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -35,7 +35,7 @@ export default function PartnerProgramSuccessPage() {
 
             <h2 className="text-3xl font-bold mb-4">Application Received!</h2>
             <p className="text-lg mb-8">
-              Thank you for your interest in joining the Golden Gate Ventures
+              Thank you for your interest in joining the Golden Goose Ventures
               Partner Network. We&apos;ve successfully received your application
               and our team will review it shortly.
             </p>

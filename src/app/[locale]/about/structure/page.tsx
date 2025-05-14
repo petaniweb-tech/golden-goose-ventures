@@ -19,7 +19,7 @@ export default function CorporateStructure() {
         link="Corporate Structure"
         img="/images/banner/about1.png"
         title="Corporate Structure"
-        desc="Golden Gate Ventures operates through a strategic corporate structure designed to maximize efficiency and value creation."
+        desc="Golden Goose Ventures operates through a strategic corporate structure designed to maximize efficiency and value creation."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -176,7 +176,7 @@ export default function CorporateStructure() {
           {/* <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4">Global Presence</h3>
             <p className="mb-6">
-              Golden Gate Ventures maintains offices in key strategic locations
+              Golden Goose Ventures maintains offices in key strategic locations
               to serve our global client base:
             </p>
 
