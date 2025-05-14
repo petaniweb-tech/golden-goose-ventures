@@ -81,7 +81,7 @@ export default function EventHostingPage() {
                   tokenomics, regulatory compliance, and go-to-market strategy.
                 </p>
                 <p>
-                  Whether you're launching a new product or looking to
+                  Whether you are launching a new product or looking to
                   strengthen your community, our event hosting services provide
                   the platform you need to succeed in the blockchain ecosystem.
                 </p>
@@ -164,9 +164,9 @@ export default function EventHostingPage() {
               Ready to Elevate Your Blockchain Project?
             </h2>
             <p className="mb-6">
-              Whether you're planning a hackathon, AMA, or exclusive industry
-              event, our team is here to help you create impactful experiences
-              that drive results.
+              Whether you&apos;re planning a hackathon, AMA, or exclusive
+              industry event, our team is here to help you create impactful
+              experiences that drive results.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

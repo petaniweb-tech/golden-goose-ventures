@@ -32,7 +32,7 @@ export default function StrategicAdvisoryPage() {
                   turn innovative ideas into successful, compliant businesses.
                 </p>
                 <p>
-                  Whether you're launching a new project or scaling an existing
+                  Whether you are launching a new project or scaling an existing
                   one, our team of experts is here to guide you every step of
                   the way.
                 </p>

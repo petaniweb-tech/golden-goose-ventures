@@ -10,7 +10,7 @@ export default function VentureBuildingPage() {
         link="Venture Builder"
         img="/images/banner/about1.png"
         title="Venture Builder for Crypto & Web3 Incubator"
-        desc="An active, hands-on incubator that doesn’t just fund projects—it builds them from scratch."
+        desc="An active, hands-on incubator that does not just fund projects—it builds them from scratch."
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -20,9 +20,9 @@ export default function VentureBuildingPage() {
               Venture Builder for Crypto & Web3 Incubator
             </h2>
             <p className="text-lg mb-8">
-              A venture builder (or "startup studio") is an active, hands-on
-              incubator that doesn’t just fund projects—it builds them from
-              scratch. Unlike traditional accelerators, a venture builder
+              A venture builder (or &quot;startup studio&quot;) is an active,
+              hands-on incubator that does not just fund projects—it builds them
+              from scratch. Unlike traditional accelerators, a venture builder
               provides full-stack support: ideation, technical development,
               tokenomics, governance, and go-to-market strategy.
             </p>
@@ -32,22 +32,21 @@ export default function VentureBuildingPage() {
                 <h3 className="text-xl font-semibold mb-4">Core Structure</h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    <strong>In-House Labs</strong> – Internal team of blockchain
+                    <strong>In-House Labs</strong> Internal team of blockchain
                     devs, economists, and growth hackers who prototype new
                     projects.
                   </li>
                   <li>
-                    <strong>Portfolio Incubation</strong> – Selected external
+                    <strong>Portfolio Incubation</strong> Selected external
                     startups receive capital + operational support (legal,
                     marketing, smart contract audits).
                   </li>
                   <li>
-                    <strong>Shared Resources</strong> – Legal, token
-                    engineering, and community growth teams support all
-                    ventures.
+                    <strong>Shared Resources</strong> Legal, token engineering,
+                    and community growth teams support all ventures.
                   </li>
                   <li>
-                    <strong>Tokenized Ownership</strong> – Venture builder takes
+                    <strong>Tokenized Ownership</strong> Venture builder takes
                     equity + tokens in projects, aligning long-term incentives.
                   </li>
                 </ul>
@@ -57,15 +56,15 @@ export default function VentureBuildingPage() {
                 <h3 className="text-xl font-semibold mb-4">Key Advantages</h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    ✅ <strong>Faster Execution</strong> – Pre-vetted talent and
+                    ✅ <strong>Faster Execution</strong> Pre-vetted talent and
                     resources reduce startup friction.
                   </li>
                   <li>
-                    ✅ <strong>Diversified Risk</strong> – Multiple projects in
+                    ✅ <strong>Diversified Risk</strong> Multiple projects in
                     parallel increase success odds.
                   </li>
                   <li>
-                    ✅ <strong>Network Effects</strong> – Cross-pollination
+                    ✅ <strong>Network Effects</strong> Cross-pollination
                     between incubated projects boosts growth.
                   </li>
                 </ul>
