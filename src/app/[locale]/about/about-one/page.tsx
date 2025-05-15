@@ -16,7 +16,7 @@ export default function OurCompanyPage() {
     <>
       <BreadcrumbItem
         link="Our Company"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Our Company.webp"
         title="Our Company"
         desc="Empowering the Future of Blockchain & Crypto Innovation At Golden Goose Ventures, we are committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation."
       />

@@ -11,9 +11,10 @@ export default function TeamPage() {
     <>
       <BreadcrumbItem
         link="OTC / Market Making"
-        img="/images/banner/about1.png"
+        img="/images/about-us/OTC Market Making.webp"
         title="OTC / Market Making"
         desc="Professional liquidity solutions and market support for digital assets."
+        blur={true}
       />
 
       <div className="container mx-auto px-4 py-16">

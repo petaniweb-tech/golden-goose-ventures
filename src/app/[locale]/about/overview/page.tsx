@@ -12,10 +12,10 @@ export default function OverviewPage() {
       <p className="mb-8">
         Learn more about our vision, investment focus, and history.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+      <div className="flex flex-col gap-12 max-w-2xl">
         <Link
           href={`/${locale}/about/overview/mission-values`}
-          className="block p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
+          className="p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
         >
           <h2 className="text-xl font-semibold mb-2">
             Our Vision, Mission and Core Values
@@ -23,13 +23,13 @@ export default function OverviewPage() {
         </Link>
         <Link
           href={`/${locale}/about/overview/key-investment-area`}
-          className="block p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
+          className="p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
         >
           <h2 className="text-xl font-semibold mb-2">Key Investment Area</h2>
         </Link>
         <Link
           href={`/${locale}/about/overview/our-history`}
-          className="block p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
+          className="p-6 bg-blue-50 rounded-lg shadow hover:bg-blue-100 transition"
         >
           <h2 className="text-xl font-semibold mb-2">Our History</h2>
         </Link>

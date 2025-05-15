@@ -1,25 +1,17 @@
 import React from "react";
 import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
 import CtaOne from "@/components/Section/CTA/CtaOne";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function CorporateStructure() {
   return (
     <>
-      {/* <div className="container mx-auto px-4 py-4">
-        <nav className="mb-4 text-sm">
-          <Link href="/about" className="text-blue-600 hover:underline">
-            About Us
-          </Link>{" "}
-          &gt; Corporate Structure
-        </nav>
-      </div> */}
       <BreadcrumbItem
         link="Corporate Structure"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Corporate Structure.webp"
         title="Corporate Structure"
         desc="Golden Goose Ventures operates through a strategic corporate structure designed to maximize efficiency and value creation."
+        blur={false}
+        bgBlack="bg-black/50"
       />
 
       <div className="container mx-auto px-4 py-16">

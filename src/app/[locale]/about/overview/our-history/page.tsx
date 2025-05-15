@@ -8,7 +8,7 @@ export default function OurHistory() {
     <>
       <BreadcrumbItem
         link="Our History"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Our History - 1st option.webp"
         title="Our History"
         desc="A journey of innovation and impact in blockchain and crypto investment."
       />

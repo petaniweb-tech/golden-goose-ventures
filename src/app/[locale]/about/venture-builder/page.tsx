@@ -11,9 +11,10 @@ export default function VentureBuilderPage() {
     <>
       <BreadcrumbItem
         link="Venture Builder"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Venture Builder.webp"
         title="Venture Builder for Crypto & Web3 Incubator"
         desc="A hands-on startup studio building and scaling blockchain projects from the ground up."
+        blur={true}
       />
 
       <div className="container mx-auto px-4 py-16">

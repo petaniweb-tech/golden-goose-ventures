@@ -8,7 +8,7 @@ export default function MissionValues() {
     <>
       <BreadcrumbItem
         link="Mission & Values"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Our Vision, Mission and Core Values.webp"
         title="Our Mission & Values"
         desc="We're committed to accelerating the growth of the next wave of blockchain and cryptocurrency innovation."
       />

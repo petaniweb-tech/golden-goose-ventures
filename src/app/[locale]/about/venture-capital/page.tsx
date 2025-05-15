@@ -11,9 +11,11 @@ export default function VentureCapitalPage() {
     <>
       <BreadcrumbItem
         link="Venture Capital"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Venture Capital.webp"
         title="Venture Capital"
         desc="We invest in high-potential blockchain startups and digital assets across various stages."
+        // blur={true}
+        bgBlack="bg-black/40"
       />
 
       <div className="container mx-auto px-4 py-16">

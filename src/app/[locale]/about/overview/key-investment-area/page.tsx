@@ -8,7 +8,7 @@ export default function KeyInvestmentAreas() {
     <>
       <BreadcrumbItem
         link="Key Investment Areas"
-        img="/images/banner/about1.png"
+        img="/images/about-us/Key Investment Area - 1st option.webp"
         title="Key Investment Areas"
         desc="Our focus areas in blockchain and crypto innovation."
       />
