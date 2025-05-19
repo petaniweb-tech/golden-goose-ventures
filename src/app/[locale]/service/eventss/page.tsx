@@ -59,7 +59,7 @@ export default function EventHostingPage() {
     <>
       <BreadcrumbItem
         link="Event Hosting"
-        img="/images/banner/about1.png"
+        img="/images/services/Event Hosting Services.webp"
         title="Event Hosting Services"
         desc="Hosting hackathons, AMAs, and exclusive industry events to foster partnerships and visibility for your project."
       />
@@ -88,7 +88,7 @@ export default function EventHostingPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Empowering Blockchain Projects through Events.webp"
                   alt="Event Hosting Services"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -185,10 +185,10 @@ export default function EventHostingPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }

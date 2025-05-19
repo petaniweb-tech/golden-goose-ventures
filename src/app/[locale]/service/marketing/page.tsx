@@ -59,9 +59,11 @@ export default function Web3MarketingPage() {
     <>
       <BreadcrumbItem
         link="Web3 Marketing"
-        img="/images/banner/about1.png"
+        img="/images/services/End-to-End WEB3 Marketing.webp"
         title="End-to-end Web3 Marketing"
         desc="Influencer campaigns, community management, and targeted outreach. We drive adoption through data-driven strategies."
+        bgBlack="bg-black/50"
+        blur={true}
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -86,7 +88,7 @@ export default function Web3MarketingPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Driving WEB3 Adoption.webp"
                   alt="Web3 Marketing"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -183,10 +185,10 @@ export default function Web3MarketingPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }

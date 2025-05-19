@@ -46,9 +46,10 @@ export default function ComplianceAdvisoryPage() {
     <>
       <BreadcrumbItem
         link="Compliance Advisory"
-        img="/images/banner/about1.png"
+        img="/images/services/Compliance Advisory Services.webp"
         title="Compliance Advisory Services"
         desc="Navigate global crypto regulations with expert assistance in entity structuring, AML/KYC, and licensing in crypto-friendly jurisdictions."
+        bgBlack="bg-black/40"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -76,7 +77,7 @@ export default function ComplianceAdvisoryPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Simplifying Crypto Compliance.webp"
                   alt="Compliance Advisory Services"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -157,10 +158,10 @@ export default function ComplianceAdvisoryPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }

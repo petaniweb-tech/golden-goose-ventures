@@ -11,7 +11,7 @@ export default function StrategicAdvisoryPage() {
     <>
       <BreadcrumbItem
         link="Strategic Advisory"
-        img="/images/banner/about1.png"
+        img="/images/services/strategic-advisory-services.webp"
         title="Strategic Advisory Services"
         desc="Expert guidance for blockchain projects, from tokenomics to regulatory compliance."
       />
@@ -39,7 +39,7 @@ export default function StrategicAdvisoryPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Transforming blockchain ideas.webp"
                   alt="Strategic Advisory Services"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -152,7 +152,7 @@ export default function StrategicAdvisoryPage() {
               </div>
               <div>
                 <Image
-                  src="/images/component/assessment.png"
+                  src="/images/services/Why choose us.webp"
                   alt="Why Choose Us"
                   className="rounded-lg shadow-lg w-full"
                   width={472}

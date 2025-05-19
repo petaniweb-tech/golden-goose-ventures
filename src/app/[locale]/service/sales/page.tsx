@@ -46,9 +46,10 @@ export default function B2BPartnershipsPage() {
     <>
       <BreadcrumbItem
         link="B2B Partnerships"
-        img="/images/banner/about1.png"
+        img="/images/services/B2B Partnership & Enterprise Adoption.webp"
         title="B2B Partnerships & Enterprise Adoption"
         desc="We connect projects with exchanges, custodians, and institutional buyers to drive enterprise adoption and market success."
+        bgBlack="bg-black/40"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -74,7 +75,7 @@ export default function B2BPartnershipsPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Empowering Blockchain Enterprises.webp"
                   alt="B2B Partnerships"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -155,10 +156,10 @@ export default function B2BPartnershipsPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }
