@@ -57,7 +57,7 @@ export default function SmartContractPage() {
     <>
       <BreadcrumbItem
         link="Smart Contracts"
-        img="/images/services/Secure, Gas-Optimized Smart Contracts.webp"
+        img="/images/services/secure-gas-optimized-smart-contracts.webp"
         title="Secure, Gas-Optimized Smart Contracts"
         desc="From DeFi to NFTs, we deliver battle-tested code for EVM, Solana, and Cosmos ecosystems."
       />

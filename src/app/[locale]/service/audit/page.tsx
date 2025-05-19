@@ -92,7 +92,7 @@ export default function SecurityAuditPage() {
               </div>
               <div>
                 <Image
-                  src="/images/services/Secure Your Blockchain Project.webp"
+                  src="/images/services/secure-your-blockchain-project.webp"
                   alt="Security Audits"
                   className="rounded-lg shadow-lg w-full"
                   width={930}

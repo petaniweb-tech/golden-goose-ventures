@@ -11,7 +11,7 @@ export default function StrategicAdvisoryPage() {
     <>
       <BreadcrumbItem
         link="Strategic Advisory"
-        img="/images/services/Strategic Advisory services.webp"
+        img="/images/services/strategic-advisory-services.webp"
         title="Strategic Advisory Services"
         desc="Expert guidance for blockchain projects, from tokenomics to regulatory compliance."
       />
