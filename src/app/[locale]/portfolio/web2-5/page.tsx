@@ -1,27 +1,27 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import portfolioData from "@/data/portfolio.json";
-import CaseStudyItem from "@/components/CaseStudy/CaseStudyItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import portfolioData from '@/data/portfolio.json';
+import CaseStudyItem from '@/components/CaseStudy/CaseStudyItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
 
 export default function Web3Portfolio() {
   // Filter portfolio data to get only web3 category items
   const web3Portfolio = portfolioData.filter(
-    (item) => item.category === "web3"
+    (item) => item.category === 'web3'
   );
 
   return (
     <>
       <BreadcrumbItem
         link="Web3 Portfolio"
-        img="/images/banner/about1.png"
-        title="Web3 Portfolio"
+        img="/images/portfolio/Liquid Venture - Fluid Capital for the Future.webp"
+        title="Web2.5 Portfolio"
         desc="Our investments in the next generation of decentralized applications, metaverse platforms, and creator economy technologies."
       />
 
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto mb-16 text-center">
-          <h2 className="text-3xl font-bold mb-6">Web3 Investments</h2>
+          <h2 className="text-3xl font-bold mb-6">Web2.5 Investments</h2>
           <p className="text-lg">
             Golden Goose Ventures is backing pioneering Web3 startups that are
             building decentralized applications, metaverse experiences, and
