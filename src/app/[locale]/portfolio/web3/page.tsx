@@ -1,20 +1,20 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import portfolioData from "@/data/portfolio.json";
-import CaseStudyItem from "@/components/CaseStudy/CaseStudyItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import portfolioData from '@/data/portfolio.json';
+import CaseStudyItem from '@/components/CaseStudy/CaseStudyItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
 
 export default function Web3Portfolio() {
   // Filter portfolio data to get only web3 category items
   const web3Portfolio = portfolioData.filter(
-    (item) => item.category === "web3"
+    (item) => item.category === 'web3'
   );
 
   return (
     <>
       <BreadcrumbItem
         link="Web3 Portfolio"
-        img="/images/banner/about1.png"
+        img="/images/portfolio/WEB3 Portfolio.webp"
         title="Web3 Portfolio"
         desc="Our investments in the next generation of decentralized applications, metaverse platforms, and creator economy technologies."
       />

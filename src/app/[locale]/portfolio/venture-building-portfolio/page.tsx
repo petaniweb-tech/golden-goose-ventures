@@ -8,7 +8,7 @@ export default function VentureBuildingPage() {
     <>
       <BreadcrumbItem
         link="Venture Builder"
-        img="/images/banner/about1.png"
+        img="/images/portfolio/Venture Builder for Crypto & WEB3 Incubator.webp"
         title="Venture Builder for Crypto & Web3 Incubator"
         desc="An active, hands-on incubator that does not just fund projects—it builds them from scratch."
       />

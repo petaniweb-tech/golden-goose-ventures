@@ -8,7 +8,7 @@ export default function VentureCapitalPage() {
     <>
       <BreadcrumbItem
         link="Venture Capital & Token Investments"
-        img="/images/banner/about1.png"
+        img="/images/portfolio/Venture Capital.webp"
         title="Venture Capital"
         desc="Golden Goose Ventures' flagship investment arm focused on blockchain and cryptocurrency opportunities."
       />

@@ -9,7 +9,7 @@ export default function LiquidVenturePortfolio() {
     <>
       <BreadcrumbItem
         link="Liquid Venture Portfolio"
-        img="/images/banner/about1.png"
+        img="/images/portfolio/Liquid Venture - Fluid Capital for the Future.webp"
         title="Liquid Venture – Fluid Capital for the Future"
         desc="We pioneer Liquid Venture – a hybrid model merging venture capital with market liquidity. Unlike traditional VC, we provide flexible, on-demand funding paired with deep liquidity solutions for Web3 startups and high-growth crypto projects."
       />

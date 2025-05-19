@@ -1,45 +1,45 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
-import Image from "next/image";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
+import Image from 'next/image';
 
 export default function CareersPage() {
   // Mock job listings data
   const jobListings = [
     {
       id: 1,
-      title: "Investment Analyst",
-      department: "Investment Team",
-      location: "Singapore",
-      type: "Full-time",
+      title: 'Investment Analyst',
+      department: 'Investment Team',
+      location: 'Singapore',
+      type: 'Full-time',
     },
     {
       id: 2,
-      title: "Blockchain Developer",
-      department: "Technology",
-      location: "Remote",
-      type: "Full-time",
+      title: 'Blockchain Developer',
+      department: 'Technology',
+      location: 'Remote',
+      type: 'Full-time',
     },
     {
       id: 3,
-      title: "Market Making Specialist",
-      department: "Trading",
-      location: "Hong Kong",
-      type: "Full-time",
+      title: 'Market Making Specialist',
+      department: 'Trading',
+      location: 'Hong Kong',
+      type: 'Full-time',
     },
     {
       id: 4,
-      title: "Portfolio Operations Associate",
-      department: "Operations",
-      location: "Singapore",
-      type: "Full-time",
+      title: 'Portfolio Operations Associate',
+      department: 'Operations',
+      location: 'Singapore',
+      type: 'Full-time',
     },
     {
       id: 5,
-      title: "Legal Counsel",
-      department: "Legal & Compliance",
-      location: "Singapore",
-      type: "Full-time",
+      title: 'Legal Counsel',
+      department: 'Legal & Compliance',
+      location: 'Singapore',
+      type: 'Full-time',
     },
   ];
 
@@ -47,7 +47,7 @@ export default function CareersPage() {
     <>
       <BreadcrumbItem
         link="Careers"
-        img="/images/banner/about1.png"
+        img="/images/careers/Join Our Team.webp"
         title="Join Our Team"
         desc="Explore career opportunities at Golden Goose Ventures and be part of the future of blockchain and cryptocurrency innovation."
       />
@@ -66,7 +66,7 @@ export default function CareersPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 items-center">
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/careers/Our Values.webp"
                   alt="Team Culture"
                   className="rounded-lg shadow-md w-full"
                   width={930}

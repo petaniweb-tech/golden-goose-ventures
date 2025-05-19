@@ -1,8 +1,8 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import CaseStudyOne from "@/components/CaseStudy/CaseStudyOne";
-import portfolioData from "@/data/portfolio.json";
-import CtaOne from "@/components/Section/CTA/CtaOne";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import CaseStudyOne from '@/components/CaseStudy/CaseStudyOne';
+import portfolioData from '@/data/portfolio.json';
+import CtaOne from '@/components/Section/CTA/CtaOne';
 
 export default function PortfolioPage() {
   return (
@@ -10,7 +10,7 @@ export default function PortfolioPage() {
       <BreadcrumbItem
         link="Portfolio"
         img="/images/banner/about1.png"
-        title="Our Portfolio"
+        title="Web 3 Portfolio"
         desc="Discover our strategic investments in blockchain, cryptocurrency, DeFi, and Web3 companies driving innovation in the digital economy."
       />
 

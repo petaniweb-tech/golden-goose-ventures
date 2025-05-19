@@ -1,16 +1,16 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
-import Image from "next/image";
-import Link from "next/link";
-import IconSVG from "@/components/IconSVG";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
+import Image from 'next/image';
+import Link from 'next/link';
+import IconSVG from '@/components/IconSVG';
 
 export default function PartnerProgramPage() {
   return (
     <>
       <BreadcrumbItem
         link="Partner Program"
-        img="/images/banner/about1.png"
+        img="/images/partner-program/Partner Program.webp"
         title="Partner Program"
         desc="Join Golden Goose Ventures' exclusive partner network and access premium opportunities in the blockchain and cryptocurrency ecosystem."
       />
@@ -92,7 +92,7 @@ export default function PartnerProgramPage() {
 
               <div className="order-1 md:order-2">
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/partner-program/Why Join our Partner Network.webp"
                   alt="Partner Network"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
