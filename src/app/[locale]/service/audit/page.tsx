@@ -66,7 +66,7 @@ export default function SecurityAuditPage() {
     <>
       <BreadcrumbItem
         link="Security Audits"
-        img="/images/banner/about1.png"
+        img="/images/services/Comprehensive Security Reviews.webp"
         title="Comprehensive Security Reviews"
         desc="Mitigate risks before launch with penetration testing and formal verification."
       />
@@ -92,7 +92,7 @@ export default function SecurityAuditPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Secure Your Blockchain Project.webp"
                   alt="Security Audits"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -189,10 +189,10 @@ export default function SecurityAuditPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }

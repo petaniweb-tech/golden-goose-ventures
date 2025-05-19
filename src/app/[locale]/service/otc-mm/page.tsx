@@ -59,7 +59,7 @@ export default function LiquiditySolutionsPage() {
     <>
       <BreadcrumbItem
         link="Liquidity Solutions"
-        img="/images/banner/about1.png"
+        img="/images/services/Liquidity Solutions for Tokens and NFTs.webp"
         title="Liquidity Solutions for Tokens and NFTs"
         desc="Our OTC desk and algorithmic market-making ensure smooth trading with minimal slippage."
       />
@@ -88,7 +88,7 @@ export default function LiquiditySolutionsPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Seamless Liquidity for Digital Assets.webp"
                   alt="Liquidity Solutions"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -185,10 +185,10 @@ export default function LiquiditySolutionsPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }

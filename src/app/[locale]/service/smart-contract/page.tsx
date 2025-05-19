@@ -57,7 +57,7 @@ export default function SmartContractPage() {
     <>
       <BreadcrumbItem
         link="Smart Contracts"
-        img="/images/banner/about1.png"
+        img="/images/services/Secure, Gas-Optimized Smart Contracts.webp"
         title="Secure, Gas-Optimized Smart Contracts"
         desc="From DeFi to NFTs, we deliver battle-tested code for EVM, Solana, and Cosmos ecosystems."
       />
@@ -85,7 +85,7 @@ export default function SmartContractPage() {
               </div>
               <div>
                 <Image
-                  src="/images/blog/930x593.png"
+                  src="/images/services/Building Secure Blockchain Solution.webp"
                   alt="Smart Contracts"
                   className="rounded-lg shadow-lg w-full"
                   width={930}
@@ -182,10 +182,10 @@ export default function SmartContractPage() {
               </Link>
             </div>
           </div>
-
-          <CtaOne />
         </div>
       </div>
+
+      <CtaOne />
     </>
   );
 }
