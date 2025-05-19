@@ -47,7 +47,7 @@ export default function CareersPage() {
     <>
       <BreadcrumbItem
         link="Careers"
-        img="/images/careers/Join Our Team.webp"
+        img="/images/careers/join-our-team.webp"
         title="Join Our Team"
         desc="Explore career opportunities at Golden Goose Ventures and be part of the future of blockchain and cryptocurrency innovation."
       />
