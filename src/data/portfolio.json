@@ -1,110 +1,110 @@
 [
-    {
-        "id": 1,
-        "category": "blockchain",
-        "subTitle": "Blockchain Infrastructure",
-        "title": "ChainLink Protocol",
-        "desc": "A distributed ledger technology company building secure and scalable enterprise blockchain solutions.",
-        "shortDesc": "Revolutionizing decentralized oracle networks for smart contracts.",
-        "img": "/images/blog/portfolio-chainlink.jpg"
-    },
-    {
-        "id": 2,
-        "category": "blockchain",
-        "subTitle": "Enterprise Solutions",
-        "title": "BlockStack",
-        "desc": "Enterprise-grade blockchain solution for supply chain management and logistics tracking.",
-        "shortDesc": "Transforming supply chain transparency and efficiency through blockchain.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 3,
-        "category": "blockchain",
-        "subTitle": "Financial Infrastructure",
-        "title": "Ledger Network",
-        "desc": "Building the next generation of financial infrastructure on blockchain technology.",
-        "shortDesc": "Creating secure and compliant financial rails for the digital economy.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 4,
-        "category": "cryptocurrency",
-        "subTitle": "Digital Assets",
-        "title": "CryptoVault",
-        "desc": "A regulated digital asset custody solution for institutional investors and enterprises.",
-        "shortDesc": "Institutional-grade security for digital asset management.",
-        "img": "/images/blog/portfolio-crypto.jpg"
-    },
-    {
-        "id": 5,
-        "category": "cryptocurrency",
-        "subTitle": "Exchange Platform",
-        "title": "Nexus Exchange",
-        "desc": "A secure and compliant cryptocurrency exchange serving global markets with advanced trading features.",
-        "shortDesc": "Connecting traditional finance with the digital asset ecosystem.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 6,
-        "category": "cryptocurrency",
-        "subTitle": "Asset Management",
-        "title": "Quantum Capital",
-        "desc": "Innovative cryptocurrency asset management platform for institutional investors.",
-        "shortDesc": "Bringing professional asset management to digital currencies.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 7,
-        "category": "defi",
-        "subTitle": "Lending Protocol",
-        "title": "DefiLend",
-        "desc": "Decentralized lending protocol offering collateralized loans and yield opportunities.",
-        "shortDesc": "Democratizing access to capital and yield through DeFi.",
-        "img": "/images/blog/portfolio-defilend.jpg"
-    },
-    {
-        "id": 8,
-        "category": "defi",
-        "subTitle": "Yield Aggregator",
-        "title": "Yield Matrix",
-        "desc": "Smart yield aggregator that optimizes returns across DeFi protocols.",
-        "shortDesc": "Maximizing DeFi yields through intelligent protocol routing.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 9,
-        "category": "defi",
-        "subTitle": "Decentralized Exchange",
-        "title": "SwapFusion",
-        "desc": "Next-generation decentralized exchange with advanced trading features and minimal slippage.",
-        "shortDesc": "Revolutionizing on-chain trading with innovative liquidity solutions.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 10,
-        "category": "web3",
-        "subTitle": "Metaverse Platform",
-        "title": "MetaRealm",
-        "desc": "Immersive metaverse platform connecting digital and physical experiences through blockchain.",
-        "shortDesc": "Building the infrastructure for the next generation of online experiences.",
-        "img": "/images/blog/portfolio-metarealm.jpg"
-    },
-    {
-        "id": 11,
-        "category": "web3",
-        "subTitle": "NFT Marketplace",
-        "title": "ArtChain",
-        "desc": "Curated NFT marketplace for digital art with embedded royalty and authentication systems.",
-        "shortDesc": "Empowering artists through blockchain-based digital ownership.",
-        "img": "/images/blog/930x593.png"
-    },
-    {
-        "id": 12,
-        "category": "web3",
-        "subTitle": "Decentralized Social",
-        "title": "SocialDAO",
-        "desc": "User-owned social platform where content creators earn direct rewards from their audience.",
-        "shortDesc": "Reimagining social media through decentralized governance and incentives.",
-        "img": "/images/blog/930x593.png"
-    }
+  {
+    "id": 1,
+    "category": "blockchain",
+    "subTitle": "Blockchain Infrastructure",
+    "title": "ChainLink Protocol",
+    "desc": "A distributed ledger technology company building secure and scalable enterprise blockchain solutions.",
+    "shortDesc": "Revolutionizing decentralized oracle networks for smart contracts.",
+    "img": "/images/blog/portfolio-chainlink.jpg"
+  },
+  {
+    "id": 2,
+    "category": "blockchain",
+    "subTitle": "Enterprise Solutions",
+    "title": "BlockStack",
+    "desc": "Enterprise-grade blockchain solution for supply chain management and logistics tracking.",
+    "shortDesc": "Transforming supply chain transparency and efficiency through blockchain.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 3,
+    "category": "blockchain",
+    "subTitle": "Financial Infrastructure",
+    "title": "Ledger Network",
+    "desc": "Building the next generation of financial infrastructure on blockchain technology.",
+    "shortDesc": "Creating secure and compliant financial rails for the digital economy.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 4,
+    "category": "cryptocurrency",
+    "subTitle": "Digital Assets",
+    "title": "CryptoVault",
+    "desc": "A regulated digital asset custody solution for institutional investors and enterprises.",
+    "shortDesc": "Institutional-grade security for digital asset management.",
+    "img": "/images/blog/portfolio-crypto.jpg"
+  },
+  {
+    "id": 5,
+    "category": "cryptocurrency",
+    "subTitle": "Exchange Platform",
+    "title": "Nexus Exchange",
+    "desc": "A secure and compliant cryptocurrency exchange serving global markets with advanced trading features.",
+    "shortDesc": "Connecting traditional finance with the digital asset ecosystem.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 6,
+    "category": "cryptocurrency",
+    "subTitle": "Asset Management",
+    "title": "Quantum Capital",
+    "desc": "Innovative cryptocurrency asset management platform for institutional investors.",
+    "shortDesc": "Bringing professional asset management to digital currencies.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 7,
+    "category": "defi",
+    "subTitle": "Lending Protocol",
+    "title": "DefiLend",
+    "desc": "Decentralized lending protocol offering collateralized loans and yield opportunities.",
+    "shortDesc": "Democratizing access to capital and yield through DeFi.",
+    "img": "/images/blog/portfolio-defilend.jpg"
+  },
+  {
+    "id": 8,
+    "category": "defi",
+    "subTitle": "Yield Aggregator",
+    "title": "Yield Matrix",
+    "desc": "Smart yield aggregator that optimizes returns across DeFi protocols.",
+    "shortDesc": "Maximizing DeFi yields through intelligent protocol routing.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 9,
+    "category": "defi",
+    "subTitle": "Decentralized Exchange",
+    "title": "SwapFusion",
+    "desc": "Next-generation decentralized exchange with advanced trading features and minimal slippage.",
+    "shortDesc": "Revolutionizing on-chain trading with innovative liquidity solutions.",
+    "img": "/images/blog/930x593.png"
+  },
+  {
+    "id": 10,
+    "category": "web3",
+    "subTitle": "Metaverse Platform",
+    "title": "MetaRealm",
+    "desc": "Immersive metaverse platform connecting digital and physical experiences through blockchain.",
+    "shortDesc": "Building the infrastructure for the next generation of online experiences.",
+    "img": "/images/portfolio/MetaRealm.webp"
+  },
+  {
+    "id": 11,
+    "category": "web3",
+    "subTitle": "NFT Marketplace",
+    "title": "ArtChain",
+    "desc": "Curated NFT marketplace for digital art with embedded royalty and authentication systems.",
+    "shortDesc": "Empowering artists through blockchain-based digital ownership.",
+    "img": "/images/portfolio/ArtChain2.webp"
+  },
+  {
+    "id": 12,
+    "category": "web3",
+    "subTitle": "Decentralized Social",
+    "title": "SocialDAO",
+    "desc": "User-owned social platform where content creators earn direct rewards from their audience.",
+    "shortDesc": "Reimagining social media through decentralized governance and incentives.",
+    "img": "/images/portfolio/SocialDAO2.webp"
+  }
 ]

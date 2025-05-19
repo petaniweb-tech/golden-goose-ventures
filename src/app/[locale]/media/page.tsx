@@ -1,8 +1,8 @@
-import React from "react";
-import BreadcrumbItem from "@/components/Breadcrumb/BreadcrumbItem";
-import CtaOne from "@/components/Section/CTA/CtaOne";
-import blogData from "@/data/blog.json";
-import Image from "next/image";
+import React from 'react';
+import BreadcrumbItem from '@/components/Breadcrumb/BreadcrumbItem';
+import CtaOne from '@/components/Section/CTA/CtaOne';
+import blogData from '@/data/blog.json';
+import Image from 'next/image';
 
 export default function MediaPage() {
   // Filter first 6 blog posts for display
@@ -12,7 +12,7 @@ export default function MediaPage() {
     <>
       <BreadcrumbItem
         link="Media"
-        img="/images/banner/about1.png"
+        img="/images/media/Media & News.webp"
         title="Media & News"
         desc="Stay updated with the latest news, insights, and announcements from Golden Goose Ventures."
       />
