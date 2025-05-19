@@ -37,7 +37,7 @@ export default function InformationRequestPage() {
     <>
       <BreadcrumbItem
         link="Information Request"
-        img="/images/banner/about1.png"
+        img="/images/irs/Information Request Get in touch.webp"
         title="Get in Touch"
         desc="Interested in our Liquid Venture model or specialized services? Let's align your project with the right solutions."
       />
@@ -62,14 +62,14 @@ export default function InformationRequestPage() {
                 <li>✅ Custom quotes for your project&apos;s needs</li>
               </ul>
             </div>
-            <form className="bg-white p-8 rounded-2xl shadow-xl space-y-8">
+            <form className="bg-black/10 p-8 rounded-2xl shadow-xl space-y-8">
               {/* Name */}
               <div className="relative">
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  className="peer w-full border border-black-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
+                  className="peer w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
                   onFocus={() => handleFocus("name")}
                   onBlur={(e) => handleBlur("name", e)}
                   onChange={(e) => handleChange("name", e)}
@@ -91,7 +91,7 @@ export default function InformationRequestPage() {
                   type="email"
                   id="email"
                   name="email"
-                  className="peer w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
+                  className="peer w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
                   onFocus={() => handleFocus("email")}
                   onBlur={(e) => handleBlur("email", e)}
                   onChange={(e) => handleChange("email", e)}
@@ -113,7 +113,7 @@ export default function InformationRequestPage() {
                   type="text"
                   id="company"
                   name="company"
-                  className="peer w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
+                  className="peer w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
                   onFocus={() => handleFocus("company")}
                   onBlur={(e) => handleBlur("company", e)}
                   onChange={(e) => handleChange("company", e)}
@@ -134,7 +134,7 @@ export default function InformationRequestPage() {
                 <select
                   id="service"
                   name="service"
-                  className="peer w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all bg-white"
+                  className="peer w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all bg-white"
                   onFocus={() => handleFocus("service")}
                   onBlur={(e) => handleBlur("service", e)}
                   onChange={(e) => handleChange("service", e)}
@@ -166,7 +166,7 @@ export default function InformationRequestPage() {
                   id="details"
                   name="details"
                   rows={4}
-                  className="peer w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
+                  className="peer w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all placeholder-transparent"
                   placeholder='e.g., "Seeking Series A liquidity support for L1 chain"'
                   onFocus={() => handleFocus("details")}
                   onBlur={(e) => handleBlur("details", e)}
@@ -185,7 +185,7 @@ export default function InformationRequestPage() {
               </div>
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-brown-500 text-black rounded-lg font-semibold text-lg shadow-md hover:bg-brown-600 transition-colors"
+                className="w-full px-6 py-3 bg-brown/30 text-blue rounded-lg font-semibold text-lg shadow-md hover:bg-brown/80 transition-colors"
               >
                 Submit Your Request
               </button>

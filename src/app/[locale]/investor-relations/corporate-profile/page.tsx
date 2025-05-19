@@ -9,7 +9,7 @@ export default function CorporateProfilePage() {
     <>
       <BreadcrumbItem
         link="Corporate Profile"
-        img="/images/banner/about1.png"
+        img="/images/irs/Corporate Profile.webp"
         title="Corporate Profile"
         desc="Discover Golden Goose Ventures' vision, mission, and core values as a leader in blockchain innovation."
       />

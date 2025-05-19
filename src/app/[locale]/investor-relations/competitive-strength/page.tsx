@@ -8,9 +8,10 @@ export default function CompetitiveStrengthPage() {
     <>
       <BreadcrumbItem
         link="Competitive Strength"
-        img="/images/banner/about1.png"
+        img="/images/irs/Competitive Strength.webp"
         title="Competitive Strengths"
         desc="Why choose Golden Goose Ventures? Discover our unique advantages in the Web3 and blockchain ecosystem."
+        bgBlack="bg-black/40"
       />
 
       <div className="container mx-auto px-4 py-16">

@@ -9,9 +9,10 @@ export default function CorporateGovernancePage() {
     <>
       <BreadcrumbItem
         link="Corporate Governance"
-        img="/images/banner/about1.png"
+        img="/images/irs/Corporate Governance.webp"
         title="Corporate Governance"
         desc="Operational transparency and accountability at every level."
+        bgBlack="bg-black/50"
       />
 
       <div className="container mx-auto px-4 py-16">

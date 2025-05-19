@@ -9,7 +9,7 @@ export default function BusinessExpansionPage() {
     <>
       <BreadcrumbItem
         link="Business Expansion"
-        img="/images/banner/about1.png"
+        img="/images/irs/Business Expansion Strategies.webp"
         title="Business Expansion Strategies"
         desc="Scaling with precision—discover how Golden Goose Ventures drives growth and innovation across markets and verticals."
       />

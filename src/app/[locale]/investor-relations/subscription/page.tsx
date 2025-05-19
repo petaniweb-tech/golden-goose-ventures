@@ -10,9 +10,11 @@ export default function SubscriptionPage() {
     <>
       <BreadcrumbItem
         link="Subscription"
-        img="/images/banner/about1.png"
+        img="/images/irs/Subscription.webp"
         title="Stay Ahead in Web3 – Subscribe Now"
         desc="Never miss an update on crypto trends, exclusive insights, and early access to our Liquid Venture opportunities."
+        bgBlack="bg-black/40"
+        blur={true}
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -42,7 +44,7 @@ export default function SubscriptionPage() {
                 </li>
               </ul>
             </div>
-            <form className="bg-white p-8 rounded-2xl shadow-xl space-y-6 flex flex-col items-center max-w-lg mx-auto">
+            <form className="bg-black/10 p-8 rounded-2xl shadow-xl space-y-6 flex flex-col items-center max-w-lg mx-auto">
               <label
                 htmlFor="email"
                 className="w-full text-left text-sm font-medium mb-1"
@@ -53,7 +55,7 @@ export default function SubscriptionPage() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all"
+                className="w-full border border-black/60 rounded-lg px-4 py-3 focus:border-brown-500 focus:ring-2 focus:ring-brown-100 outline-none transition-all"
                 placeholder="Email Address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -61,7 +63,7 @@ export default function SubscriptionPage() {
               />
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-brown-500 text-black rounded-lg font-semibold text-lg shadow-md hover:bg-brown-600 transition-colors"
+                className="w-full px-6 py-3 bg-brown/30 text-blue rounded-lg font-semibold text-lg shadow-md hover:bg-brown/80 transition-colors"
               >
                 Subscribe
               </button>

@@ -8,9 +8,10 @@ export default function NewsroomPage() {
     <>
       <BreadcrumbItem
         link="Newsroom"
-        img="/images/banner/about1.png"
+        img="/images/irs/Newsroom.webp"
         title="Newsroom"
         desc="Headlines & Insights: Stay updated with our latest launches, research, and industry commentary."
+        bgBlack="bg-black/40"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -44,12 +45,7 @@ export default function NewsroomPage() {
                     <p className="text-sm font-medium">
                       &quot;2024 Liquid Venture Trends&quot;
                     </p>
-                    <a
-                      href="/downloads/2024-liquid-venture-trends.pdf"
-                      className="text-brown-500 underline text-xs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="#" className="text-brown-500 underline text-xs">
                       Download PDF
                     </a>
                   </div>
@@ -72,10 +68,10 @@ export default function NewsroomPage() {
               <p className="text-base">
                 Media inquiries? Contact{" "}
                 <a
-                  href="mailto:pr@goldengoose.vc"
+                  href="mailto:info@ggv.ltd"
                   className="text-brown-500 underline"
                 >
-                  pr@goldengoose.vc
+                  info@ggv.ltd
                 </a>
               </p>
             </div>

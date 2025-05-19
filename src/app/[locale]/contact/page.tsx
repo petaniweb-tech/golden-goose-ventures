@@ -50,14 +50,14 @@ export default function ContactStyleOne() {
             <div className="container w-full flex items-center justify-center">
               <div className="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 flex flex-col justify-center items-center gap-8">
                 {/* Contact Form */}
-                <div className="w-full bg-blue/95 rounded-xl p-10 flex flex-col items-center justify-center shadow">
-                  <div className="heading5 text-white mb-4">Contact Us</div>
+                <div className="w-full bg-black/10 rounded-xl p-10 flex flex-col items-center justify-center shadow">
+                  <div className="heading5 text-blue mb-4">Contact Us</div>
                   <form
                     className="w-full flex flex-col gap-4"
                     onSubmit={handleSubmit}
                   >
                     <input
-                      className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-gray-50 focus:border-blue-500 focus:bg-white focus:outline-none transition"
+                      className="w-full border border-black/60 rounded-lg px-4 py-3 bg-gray-50 focus:border-black/90 focus:bg-white focus:outline-none transition"
                       type="text"
                       name="name"
                       placeholder="Your Name"
@@ -66,7 +66,7 @@ export default function ContactStyleOne() {
                       required
                     />
                     <input
-                      className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-gray-50 focus:border-blue-500 focus:bg-white focus:outline-none transition"
+                      className="w-full border border-black/60 rounded-lg px-4 py-3 bg-gray-50 focus:border-black/90 focus:bg-white focus:outline-none transition"
                       type="email"
                       name="email"
                       placeholder="Your Email"
@@ -75,7 +75,7 @@ export default function ContactStyleOne() {
                       required
                     />
                     <input
-                      className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-gray-50 focus:border-blue-500 focus:bg-white focus:outline-none transition"
+                      className="w-full border border-black/60 rounded-lg px-4 py-3 bg-gray-50 focus:border-black/90 focus:bg-white focus:outline-none transition"
                       type="text"
                       name="subject"
                       placeholder="Subject"
@@ -84,7 +84,7 @@ export default function ContactStyleOne() {
                       required
                     />
                     <textarea
-                      className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-gray-50 focus:border-blue-500 focus:bg-white focus:outline-none transition resize-none"
+                      className="w-full border border-black/60 rounded-lg px-4 py-3 bg-gray-50 focus:border-black/90 focus:bg-white focus:outline-none transition resize-none"
                       name="message"
                       placeholder="Your Message"
                       rows={4}
@@ -97,7 +97,7 @@ export default function ContactStyleOne() {
                     )}
                     <button
                       type="submit"
-                      className="btn btn-primary rounded-md w-full mt-2 bg-white text-blue hover:bg-white-700"
+                      className="w-full px-6 py-3 bg-brown/30 text-blue rounded-lg font-semibold text-lg shadow-md hover:bg-brown/80 transition-colors"
                     >
                       Send Message
                     </button>
